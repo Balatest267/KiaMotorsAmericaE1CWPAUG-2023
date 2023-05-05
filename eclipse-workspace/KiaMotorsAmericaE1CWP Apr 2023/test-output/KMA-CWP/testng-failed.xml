@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [KMA-CWP]" parallel="classes">
+  <test name="Login(failed)" parallel="classes">
+    <classes>
+      <class name="testcases.TC001_2_CA_5440910">
+        <methods>
+          <include name="createAccount"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- testcases.TC001_2_CA_5440910 -->
+      <class name="testcases.TC001_3_CA_5440912">
+        <methods>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- testcases.TC001_3_CA_5440912 -->
+      <class name="testcases.TC001_1_CA_5440906">
+        <methods>
+          <include name="setValue"/>
+          <include name="beforeMethod"/>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- testcases.TC001_1_CA_5440906 -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [KMA-CWP] -->

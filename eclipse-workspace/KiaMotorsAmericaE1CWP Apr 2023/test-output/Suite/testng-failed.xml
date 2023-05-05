@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="dataSheetName" value="TC008"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="testCaseName" value="Schedules"/>
+  <parameter name="category" value="Smoke Testing"/>
+  <parameter name="testDescription" value="Schedules - Smoke Test"/>
+  <parameter name="authors" value="HAEA-KIA"/>
+  <test name="Schedules(failed)">
+    <parameter name="dataSheetName" value="TC008"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testCaseName" value="Schedules"/>
+    <parameter name="testDescription" value="Schedules - Smoke Test"/>
+    <classes>
+      <class name="testcases.TC008_Schedules">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="deleteSchedule"/>
+          <include name="scheduleIsDisplayedRemoteSection"/>
+        </methods>
+      </class> <!-- testcases.TC008_Schedules -->
+    </classes>
+  </test> <!-- Schedules(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [KIA-CWP]]]">
+  <parameter name="dataSheetName" value="TC001"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="testCaseName" value="Login"/>
+  <parameter name="category" value="Smoke Testing"/>
+  <parameter name="testDescription" value="Login - Smoke Test"/>
+  <parameter name="authors" value="HAEA-KIA"/>
+  <test name="Login(failed)(failed)(failed)">
+    <parameter name="dataSheetName" value="TC001"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testCaseName" value="Login"/>
+    <parameter name="testDescription" value="Login - Smoke Test"/>
+    <classes>
+      <class name="testcases.TC002_Login">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="Login_5440916" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.TC002_Login -->
+    </classes>
+  </test> <!-- Login(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [KIA-CWP]]] -->

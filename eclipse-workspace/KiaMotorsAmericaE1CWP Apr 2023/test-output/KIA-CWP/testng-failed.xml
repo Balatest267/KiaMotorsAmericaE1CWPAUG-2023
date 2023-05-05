@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [KIA-CWP]">
+  <parameter name="dataSheetName" value="TC011"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="testCaseName" value="MyCarZone"/>
+  <parameter name="category" value="Smoke Testing"/>
+  <parameter name="testDescription" value="MyCarZone - Smoke Test"/>
+  <parameter name="authors" value="HAEA-KIA"/>
+  <test name="RemoteSection(failed)">
+    <parameter name="dataSheetName" value="TC007"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testCaseName" value="RemoteSection"/>
+    <parameter name="testDescription" value="RemoteSection - Smoke Test"/>
+    <classes>
+      <class name="testcases.TC007_RemoteSection">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="RemoteSectionDoorLock" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC007_RemoteSection -->
+      <class name="testcases.TC005_Dashboard">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC005_Dashboard -->
+      <class name="testcases.TC001_CreateAccount">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC001_CreateAccount -->
+      <class name="testcases.TC011_MyCarZone">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.TC011_MyCarZone -->
+      <class name="testcases.TC006_VehicleStatus">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC006_VehicleStatus -->
+      <class name="testcases.TC008_Schedules">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC008_Schedules -->
+      <class name="testcases.TC002_Login">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC002_Login -->
+      <class name="testcases.TC004_MyVehicles">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC004_MyVehicles -->
+      <class name="testcases.TC009_Locations">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC009_Locations -->
+    </classes>
+  </test> <!-- RemoteSection(failed) -->
+  <test name="Schedules(failed)">
+    <parameter name="dataSheetName" value="TC008"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testCaseName" value="Schedules"/>
+    <parameter name="testDescription" value="Schedules - Smoke Test"/>
+    <classes>
+      <class name="testcases.TC005_Dashboard">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC005_Dashboard -->
+      <class name="testcases.TC007_RemoteSection">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC007_RemoteSection -->
+      <class name="testcases.TC001_CreateAccount">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC001_CreateAccount -->
+      <class name="testcases.TC011_MyCarZone">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.TC011_MyCarZone -->
+      <class name="testcases.TC006_VehicleStatus">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC006_VehicleStatus -->
+      <class name="testcases.TC008_Schedules">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="enableParentToggle" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="scheduleIsDisplayedRemoteSection" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.TC008_Schedules -->
+      <class name="testcases.TC002_Login">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC002_Login -->
+      <class name="testcases.TC004_MyVehicles">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC004_MyVehicles -->
+      <class name="testcases.TC009_Locations">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC009_Locations -->
+    </classes>
+  </test> <!-- Schedules(failed) -->
+  <test name="MyCarZone(failed)">
+    <parameter name="dataSheetName" value="TC011"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testCaseName" value="MyCarZone"/>
+    <parameter name="testDescription" value="MyCarZone - Smoke Test"/>
+    <classes>
+      <class name="testcases.TC005_Dashboard">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC005_Dashboard -->
+      <class name="testcases.TC007_RemoteSection">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC007_RemoteSection -->
+      <class name="testcases.TC011_MyCarZone">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="geoFenceAlert"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.TC011_MyCarZone -->
+      <class name="testcases.TC001_CreateAccount">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC001_CreateAccount -->
+      <class name="testcases.TC006_VehicleStatus">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC006_VehicleStatus -->
+      <class name="testcases.TC008_Schedules">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC008_Schedules -->
+      <class name="testcases.TC002_Login">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC002_Login -->
+      <class name="testcases.TC004_MyVehicles">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC004_MyVehicles -->
+      <class name="testcases.TC009_Locations">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC009_Locations -->
+    </classes>
+  </test> <!-- MyCarZone(failed) -->
+</suite> <!-- Failed suite [KIA-CWP] -->

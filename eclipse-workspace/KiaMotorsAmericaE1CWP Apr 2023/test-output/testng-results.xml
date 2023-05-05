@@ -1,0 +1,2872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="3" total="29" passed="25">
+  <reporter-output>
+  </reporter-output>
+  <suite name="KIA-CWP" duration-ms="1269434" started-at="2023-04-07T10:28:03Z" finished-at="2023-04-07T10:49:12Z">
+    <groups>
+      <group name="smoke">
+        <method signature="TC001_CreateAccount.clickPrivacyPolicyLink()[pri:0, instance:testcases.TC001_CreateAccount@7494e528]" name="clickPrivacyPolicyLink" class="testcases.TC001_CreateAccount"/>
+        <method signature="TC001_CreateAccount.clickTermsOfServiceLink()[pri:0, instance:testcases.TC001_CreateAccount@7494e528]" name="clickTermsOfServiceLink" class="testcases.TC001_CreateAccount"/>
+        <method signature="TC001_CreateAccount.verifyCreateAccount()[pri:0, instance:testcases.TC001_CreateAccount@7494e528]" name="verifyCreateAccount" class="testcases.TC001_CreateAccount"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Create Account" duration-ms="80217" started-at="2023-04-07T10:28:03Z" finished-at="2023-04-07T10:29:23Z">
+      <class name="testcases.TC001_CreateAccount">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC001_CreateAccount@7494e528]" name="beforeTest" is-config="true" duration-ms="107" started-at="2023-04-07T03:28:03Z" finished-at="2023-04-07T03:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_CreateAccount@7494e528]" name="beforeMethod" is-config="true" duration-ms="10045" started-at="2023-04-07T03:28:03Z" finished-at="2023-04-07T03:28:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Create Account]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Create Account - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyCreateAccount()[pri:0, instance:testcases.TC001_CreateAccount@7494e528]" name="verifyCreateAccount" duration-ms="3039" started-at="2023-04-07T03:28:13Z" finished-at="2023-04-07T03:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAccount -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_CreateAccount@7494e528]" name="afterMethod" is-config="true" duration-ms="6532" started-at="2023-04-07T03:28:16Z" finished-at="2023-04-07T03:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_CreateAccount@7494e528]" name="beforeMethod" is-config="true" duration-ms="8292" started-at="2023-04-07T03:28:22Z" finished-at="2023-04-07T03:28:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Create Account]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Create Account - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickTermsOfServiceLink()[pri:0, instance:testcases.TC001_CreateAccount@7494e528]" name="clickTermsOfServiceLink" duration-ms="16621" started-at="2023-04-07T03:28:31Z" finished-at="2023-04-07T03:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTermsOfServiceLink -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_CreateAccount@7494e528]" name="afterMethod" is-config="true" duration-ms="6968" started-at="2023-04-07T03:28:47Z" finished-at="2023-04-07T03:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_CreateAccount@7494e528]" name="beforeMethod" is-config="true" duration-ms="8283" started-at="2023-04-07T03:28:54Z" finished-at="2023-04-07T03:29:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Create Account]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Create Account - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clickPrivacyPolicyLink()[pri:0, instance:testcases.TC001_CreateAccount@7494e528]" name="clickPrivacyPolicyLink" duration-ms="13410" started-at="2023-04-07T03:29:02Z" finished-at="2023-04-07T03:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPrivacyPolicyLink -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_CreateAccount@7494e528]" name="afterMethod" is-config="true" duration-ms="6538" started-at="2023-04-07T03:29:16Z" finished-at="2023-04-07T03:29:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC001_CreateAccount@7494e528]" name="afterTest" is-config="true" duration-ms="369" started-at="2023-04-07T03:29:22Z" finished-at="2023-04-07T03:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC001_CreateAccount -->
+    </test> <!-- Create Account -->
+    <test name="Login" duration-ms="125903" started-at="2023-04-07T10:29:23Z" finished-at="2023-04-07T10:31:29Z">
+      <class name="testcases.TC002_Login">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC002_Login@53f65459]" name="beforeTest" is-config="true" duration-ms="7" started-at="2023-04-07T03:29:23Z" finished-at="2023-04-07T03:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@53f65459]" name="beforeMethod" is-config="true" duration-ms="9284" started-at="2023-04-07T03:29:23Z" finished-at="2023-04-07T03:29:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifySignInIsDisplayed()[pri:0, instance:testcases.TC002_Login@53f65459]" name="verifySignInIsDisplayed" duration-ms="2526" started-at="2023-04-07T03:29:32Z" finished-at="2023-04-07T03:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInIsDisplayed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC002_Login@53f65459]" name="afterMethod" is-config="true" duration-ms="6326" started-at="2023-04-07T03:29:35Z" finished-at="2023-04-07T03:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@53f65459]" name="beforeMethod" is-config="true" duration-ms="10777" started-at="2023-04-07T03:29:42Z" finished-at="2023-04-07T03:29:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginIn(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@53f65459]" name="verifyLoginIn" duration-ms="8786" started-at="2023-04-07T03:29:52Z" data-provider="fetchData" finished-at="2023-04-07T03:30:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginIn -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC002_Login@53f65459]" name="afterMethod" is-config="true" duration-ms="6328" started-at="2023-04-07T03:30:01Z" finished-at="2023-04-07T03:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@53f65459]" name="beforeMethod" is-config="true" duration-ms="8122" started-at="2023-04-07T03:30:08Z" finished-at="2023-04-07T03:30:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyForgotPassword()[pri:0, instance:testcases.TC002_Login@53f65459]" name="verifyForgotPassword" duration-ms="4331" started-at="2023-04-07T03:30:16Z" finished-at="2023-04-07T03:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPassword -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC002_Login@53f65459]" name="afterMethod" is-config="true" duration-ms="6189" started-at="2023-04-07T03:30:20Z" finished-at="2023-04-07T03:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@53f65459]" name="beforeMethod" is-config="true" duration-ms="8523" started-at="2023-04-07T03:30:26Z" finished-at="2023-04-07T03:30:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyRememberMecheckbox(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@53f65459]" name="verifyRememberMecheckbox" duration-ms="18342" started-at="2023-04-07T03:30:35Z" data-provider="fetchData" finished-at="2023-04-07T03:30:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRememberMecheckbox -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC002_Login@53f65459]" name="afterMethod" is-config="true" duration-ms="6239" started-at="2023-04-07T03:30:53Z" finished-at="2023-04-07T03:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@53f65459]" name="beforeMethod" is-config="true" duration-ms="8696" started-at="2023-04-07T03:31:00Z" finished-at="2023-04-07T03:31:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogout(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@53f65459]" name="verifyLogout" duration-ms="13946" started-at="2023-04-07T03:31:08Z" data-provider="fetchData" finished-at="2023-04-07T03:31:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC002_Login@53f65459]" name="afterMethod" is-config="true" duration-ms="6475" started-at="2023-04-07T03:31:22Z" finished-at="2023-04-07T03:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC002_Login@53f65459]" name="afterTest" is-config="true" duration-ms="53" started-at="2023-04-07T03:31:29Z" finished-at="2023-04-07T03:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC002_Login -->
+    </test> <!-- Login -->
+    <test name="My Vehicles" duration-ms="55895" started-at="2023-04-07T10:31:29Z" finished-at="2023-04-07T10:32:25Z">
+      <class name="testcases.TC004_MyVehicles">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC004_MyVehicles@4d41cee]" name="beforeTest" is-config="true" duration-ms="6" started-at="2023-04-07T03:31:29Z" finished-at="2023-04-07T03:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@4d41cee]" name="beforeMethod" is-config="true" duration-ms="8776" started-at="2023-04-07T03:31:29Z" finished-at="2023-04-07T03:31:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My Vehicles]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My Vehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="myVehiclesPickTheVehicle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@4d41cee]" name="myVehiclesPickTheVehicle" duration-ms="17295" started-at="2023-04-07T03:31:38Z" data-provider="fetchData" finished-at="2023-04-07T03:31:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myVehiclesPickTheVehicle -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@4d41cee]" name="afterMethod" is-config="true" duration-ms="6476" started-at="2023-04-07T03:31:55Z" finished-at="2023-04-07T03:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@4d41cee]" name="beforeMethod" is-config="true" duration-ms="7505" started-at="2023-04-07T03:32:01Z" finished-at="2023-04-07T03:32:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My Vehicles]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My Vehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="myVehiclesClickAddvehicle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@4d41cee]" name="myVehiclesClickAddvehicle" duration-ms="9367" started-at="2023-04-07T03:32:09Z" data-provider="fetchData" finished-at="2023-04-07T03:32:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myVehiclesClickAddvehicle -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@4d41cee]" name="afterMethod" is-config="true" duration-ms="6237" started-at="2023-04-07T03:32:18Z" finished-at="2023-04-07T03:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC004_MyVehicles@4d41cee]" name="afterTest" is-config="true" duration-ms="39" started-at="2023-04-07T03:32:25Z" finished-at="2023-04-07T03:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC004_MyVehicles -->
+    </test> <!-- My Vehicles -->
+    <test name="Dashboard" duration-ms="202813" started-at="2023-04-07T10:32:25Z" finished-at="2023-04-07T10:35:47Z">
+      <class name="testcases.TC005_Dashboard">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC005_Dashboard@59e5ddf]" name="beforeTest" is-config="true" duration-ms="7" started-at="2023-04-07T03:32:25Z" finished-at="2023-04-07T03:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@59e5ddf]" name="beforeMethod" is-config="true" duration-ms="10024" started-at="2023-04-07T03:32:25Z" finished-at="2023-04-07T03:32:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dashboard - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DashboardClickDoorUnLock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@59e5ddf]" name="DashboardClickDoorUnLock" duration-ms="51514" started-at="2023-04-07T03:32:35Z" data-provider="fetchData" finished-at="2023-04-07T03:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardClickDoorUnLock -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC005_Dashboard@59e5ddf]" name="afterMethod" is-config="true" duration-ms="6833" started-at="2023-04-07T03:33:26Z" finished-at="2023-04-07T03:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@59e5ddf]" name="beforeMethod" is-config="true" duration-ms="7872" started-at="2023-04-07T03:33:33Z" finished-at="2023-04-07T03:33:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dashboard - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DashboardClickDoorLock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@59e5ddf]" name="DashboardClickDoorLock" duration-ms="34996" started-at="2023-04-07T03:33:41Z" data-provider="fetchData" finished-at="2023-04-07T03:34:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardClickDoorLock -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC005_Dashboard@59e5ddf]" name="afterMethod" is-config="true" duration-ms="6426" started-at="2023-04-07T03:34:16Z" finished-at="2023-04-07T03:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@59e5ddf]" name="beforeMethod" is-config="true" duration-ms="8288" started-at="2023-04-07T03:34:23Z" finished-at="2023-04-07T03:34:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dashboard - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DashboardLastRefreshExist(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@59e5ddf]" name="DashboardLastRefreshExist" duration-ms="18056" started-at="2023-04-07T03:34:31Z" data-provider="fetchData" finished-at="2023-04-07T03:34:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardLastRefreshExist -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC005_Dashboard@59e5ddf]" name="afterMethod" is-config="true" duration-ms="6414" started-at="2023-04-07T03:34:49Z" finished-at="2023-04-07T03:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@59e5ddf]" name="beforeMethod" is-config="true" duration-ms="7441" started-at="2023-04-07T03:34:55Z" finished-at="2023-04-07T03:35:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dashboard - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DashboardClickRemoteClimateStartWithToggles(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@59e5ddf]" name="DashboardClickRemoteClimateStartWithToggles" duration-ms="37859" started-at="2023-04-07T03:35:03Z" data-provider="fetchData" finished-at="2023-04-07T03:35:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardClickRemoteClimateStartWithToggles -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC005_Dashboard@59e5ddf]" name="afterMethod" is-config="true" duration-ms="6641" started-at="2023-04-07T03:35:41Z" finished-at="2023-04-07T03:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC005_Dashboard@59e5ddf]" name="afterTest" is-config="true" duration-ms="45" started-at="2023-04-07T03:35:47Z" finished-at="2023-04-07T03:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC005_Dashboard -->
+    </test> <!-- Dashboard -->
+    <test name="VehicleStatus" duration-ms="36186" started-at="2023-04-07T10:35:47Z" finished-at="2023-04-07T10:36:24Z">
+      <class name="testcases.TC006_VehicleStatus">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC006_VehicleStatus@2781e022]" name="beforeTest" is-config="true" duration-ms="8" started-at="2023-04-07T03:35:47Z" finished-at="2023-04-07T03:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC006_VehicleStatus@2781e022]" name="beforeMethod" is-config="true" duration-ms="9430" started-at="2023-04-07T03:35:48Z" finished-at="2023-04-07T03:35:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VehicleStatus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My Vehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VehicleStatusVerifyTheVehicleName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC006_VehicleStatus@2781e022]" name="VehicleStatusVerifyTheVehicleName" duration-ms="19149" started-at="2023-04-07T03:35:57Z" data-provider="fetchData" finished-at="2023-04-07T03:36:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VehicleStatusVerifyTheVehicleName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC006_VehicleStatus@2781e022]" name="afterMethod" is-config="true" duration-ms="7471" started-at="2023-04-07T03:36:16Z" finished-at="2023-04-07T03:36:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC006_VehicleStatus@2781e022]" name="afterTest" is-config="true" duration-ms="39" started-at="2023-04-07T03:36:24Z" finished-at="2023-04-07T03:36:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC006_VehicleStatus -->
+    </test> <!-- VehicleStatus -->
+    <test name="RemoteSection" duration-ms="266994" started-at="2023-04-07T10:36:24Z" finished-at="2023-04-07T10:40:51Z">
+      <class name="testcases.TC007_RemoteSection">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC007_RemoteSection@7a1ebcd8]" name="beforeTest" is-config="true" duration-ms="6" started-at="2023-04-07T03:36:24Z" finished-at="2023-04-07T03:36:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@7a1ebcd8]" name="beforeMethod" is-config="true" duration-ms="8015" started-at="2023-04-07T03:36:24Z" finished-at="2023-04-07T03:36:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RemoteSection]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RemoteSection - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="RemoteSectionDoorUnlockRS(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@7a1ebcd8]" name="RemoteSectionDoorUnlockRS" duration-ms="54018" started-at="2023-04-07T03:36:32Z" data-provider="fetchData" finished-at="2023-04-07T03:37:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoteSectionDoorUnlockRS -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC007_RemoteSection@7a1ebcd8]" name="afterMethod" is-config="true" duration-ms="6463" started-at="2023-04-07T03:37:26Z" finished-at="2023-04-07T03:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@7a1ebcd8]" name="beforeMethod" is-config="true" duration-ms="7619" started-at="2023-04-07T03:37:32Z" finished-at="2023-04-07T03:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RemoteSection]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RemoteSection - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="RemoteSectionDoorLock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@7a1ebcd8]" name="RemoteSectionDoorLock" duration-ms="72831" started-at="2023-04-07T03:37:40Z" data-provider="fetchData" finished-at="2023-04-07T03:38:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:36)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.clickByXpathJavascriptExecutor(GenericWrappers.java:488)
+	at pages.P7_RemoteSection.clickDoorLockRS(P7_RemoteSection.java:32)
+	at testcases.TC007_RemoteSection.RemoteSectionDoorLock(TC007_RemoteSection.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoteSectionDoorLock -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC007_RemoteSection@7a1ebcd8]" name="afterMethod" is-config="true" duration-ms="6364" started-at="2023-04-07T03:38:53Z" finished-at="2023-04-07T03:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@7a1ebcd8]" name="beforeMethod" is-config="true" duration-ms="8323" started-at="2023-04-07T03:38:59Z" finished-at="2023-04-07T03:39:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RemoteSection]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RemoteSection - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="RemoteSectionClimateStart(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@7a1ebcd8]" name="RemoteSectionClimateStart" duration-ms="46303" started-at="2023-04-07T03:39:08Z" data-provider="fetchData" finished-at="2023-04-07T03:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoteSectionClimateStart -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC007_RemoteSection@7a1ebcd8]" name="afterMethod" is-config="true" duration-ms="6374" started-at="2023-04-07T03:39:54Z" finished-at="2023-04-07T03:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@7a1ebcd8]" name="beforeMethod" is-config="true" duration-ms="8236" started-at="2023-04-07T03:40:00Z" finished-at="2023-04-07T03:40:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RemoteSection]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RemoteSection - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="RemoteSectionClimateStop(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@7a1ebcd8]" name="RemoteSectionClimateStop" duration-ms="34568" started-at="2023-04-07T03:40:09Z" data-provider="fetchData" finished-at="2023-04-07T03:40:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoteSectionClimateStop -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC007_RemoteSection@7a1ebcd8]" name="afterMethod" is-config="true" duration-ms="7466" started-at="2023-04-07T03:40:43Z" finished-at="2023-04-07T03:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC007_RemoteSection@7a1ebcd8]" name="afterTest" is-config="true" duration-ms="32" started-at="2023-04-07T03:40:51Z" finished-at="2023-04-07T03:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC007_RemoteSection -->
+    </test> <!-- RemoteSection -->
+    <test name="Schedules" duration-ms="246032" started-at="2023-04-07T10:40:51Z" finished-at="2023-04-07T10:44:57Z">
+      <class name="testcases.TC008_Schedules">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="beforeTest" is-config="true" duration-ms="5" started-at="2023-04-07T03:40:51Z" finished-at="2023-04-07T03:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="beforeMethod" is-config="true" duration-ms="8224" started-at="2023-04-07T03:40:51Z" finished-at="2023-04-07T03:40:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Schedules]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Schedules - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createNewSchedule(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="createNewSchedule" duration-ms="32190" started-at="2023-04-07T03:40:59Z" data-provider="fetchData" finished-at="2023-04-07T03:41:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewSchedule -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="afterMethod" is-config="true" duration-ms="6437" started-at="2023-04-07T03:41:31Z" finished-at="2023-04-07T03:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="beforeMethod" is-config="true" duration-ms="8051" started-at="2023-04-07T03:41:38Z" finished-at="2023-04-07T03:41:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Schedules]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Schedules - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="updateExistingSchedule(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="updateExistingSchedule" duration-ms="30636" started-at="2023-04-07T03:41:46Z" data-provider="fetchData" finished-at="2023-04-07T03:42:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingSchedule -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="afterMethod" is-config="true" duration-ms="6447" started-at="2023-04-07T03:42:17Z" finished-at="2023-04-07T03:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="beforeMethod" is-config="true" duration-ms="7715" started-at="2023-04-07T03:42:23Z" finished-at="2023-04-07T03:42:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Schedules]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Schedules - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="enableParentToggle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="enableParentToggle" duration-ms="28954" started-at="2023-04-07T03:42:31Z" data-provider="fetchData" finished-at="2023-04-07T03:43:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:36)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:340)
+	at pages.P8_Schedules.enableParentToggle(P8_Schedules.java:70)
+	at testcases.TC008_Schedules.enableParentToggle(TC008_Schedules.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enableParentToggle -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="afterMethod" is-config="true" duration-ms="6362" started-at="2023-04-07T03:43:00Z" finished-at="2023-04-07T03:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="beforeMethod" is-config="true" duration-ms="8299" started-at="2023-04-07T03:43:06Z" finished-at="2023-04-07T03:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Schedules]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Schedules - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="scheduleIsDisplayedRemoteSection(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="scheduleIsDisplayedRemoteSection" duration-ms="56517" started-at="2023-04-07T03:43:14Z" data-provider="fetchData" finished-at="2023-04-07T03:44:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='remote-footer-card climate-schedule']"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ICT-2003278-AQA', ip: '10.108.25.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}), userDataDir=C:\Users\2003278\AppData\Local\Temp\scoped_dir40460_872446010}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), webauthn:extension:minPinLength=true, goog:chromeOptions={debuggerAddress=localhost:57463}, webauthn:extension:credBlob=true, webauthn:extension:prf=true, acceptInsecureCerts=false, browserVersion=111.0.5563.147, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: b326ab3e09c80aa7cac712362d8abe8a
+*** Element info: {Using=xpath, value=//*[@class='remote-footer-card climate-schedule']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='remote-footer-card climate-schedule']"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ICT-2003278-AQA', ip: '10.108.25.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}), userDataDir=C:\Users\2003278\AppData\Local\Temp\scoped_dir40460_872446010}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), webauthn:extension:minPinLength=true, goog:chromeOptions={debuggerAddress=localhost:57463}, webauthn:extension:credBlob=true, webauthn:extension:prf=true, acceptInsecureCerts=false, browserVersion=111.0.5563.147, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: b326ab3e09c80aa7cac712362d8abe8a
+*** Element info: {Using=xpath, value=//*[@class='remote-footer-card climate-schedule']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at pages.P7_RemoteSection.remoteScheduleIsDisplayed(P7_RemoteSection.java:43)
+	at testcases.TC008_Schedules.scheduleIsDisplayedRemoteSection(TC008_Schedules.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleIsDisplayedRemoteSection -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="afterMethod" is-config="true" duration-ms="6411" started-at="2023-04-07T03:44:11Z" finished-at="2023-04-07T03:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="beforeMethod" is-config="true" duration-ms="8434" started-at="2023-04-07T03:44:17Z" finished-at="2023-04-07T03:44:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Schedules]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Schedules - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="deleteSchedule(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="deleteSchedule" duration-ms="24293" started-at="2023-04-07T03:44:26Z" data-provider="fetchData" finished-at="2023-04-07T03:44:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSchedule -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="afterMethod" is-config="true" duration-ms="6492" started-at="2023-04-07T03:44:50Z" finished-at="2023-04-07T03:44:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC008_Schedules@34c4973]" name="afterTest" is-config="true" duration-ms="32" started-at="2023-04-07T03:44:57Z" finished-at="2023-04-07T03:44:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC008_Schedules -->
+    </test> <!-- Schedules -->
+    <test name="Locations" duration-ms="154478" started-at="2023-04-07T10:44:57Z" finished-at="2023-04-07T10:47:31Z">
+      <class name="testcases.TC009_Locations">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC009_Locations@2f943d71]" name="beforeTest" is-config="true" duration-ms="5" started-at="2023-04-07T03:44:57Z" finished-at="2023-04-07T03:44:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@2f943d71]" name="beforeMethod" is-config="true" duration-ms="8772" started-at="2023-04-07T03:44:57Z" finished-at="2023-04-07T03:45:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Locations]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Locations - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LocationsVehicleCurrentLocation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@2f943d71]" name="LocationsVehicleCurrentLocation" duration-ms="31224" started-at="2023-04-07T03:45:06Z" data-provider="fetchData" finished-at="2023-04-07T03:45:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hertz]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Personal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocationsVehicleCurrentLocation -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC009_Locations@2f943d71]" name="afterMethod" is-config="true" duration-ms="6415" started-at="2023-04-07T03:45:37Z" finished-at="2023-04-07T03:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@2f943d71]" name="beforeMethod" is-config="true" duration-ms="8449" started-at="2023-04-07T03:45:43Z" finished-at="2023-04-07T03:45:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Locations]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Locations - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LocationsSavePOI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@2f943d71]" name="LocationsSavePOI" duration-ms="39193" started-at="2023-04-07T03:45:52Z" data-provider="fetchData" finished-at="2023-04-07T03:46:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hertz]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Personal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocationsSavePOI -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC009_Locations@2f943d71]" name="afterMethod" is-config="true" duration-ms="6362" started-at="2023-04-07T03:46:31Z" finished-at="2023-04-07T03:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@2f943d71]" name="beforeMethod" is-config="true" duration-ms="7748" started-at="2023-04-07T03:46:37Z" finished-at="2023-04-07T03:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Locations]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Locations - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LocationsDeletePOI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@2f943d71]" name="LocationsDeletePOI" duration-ms="39568" started-at="2023-04-07T03:46:45Z" data-provider="fetchData" finished-at="2023-04-07T03:47:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hertz]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Personal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocationsDeletePOI -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC009_Locations@2f943d71]" name="afterMethod" is-config="true" duration-ms="6476" started-at="2023-04-07T03:47:25Z" finished-at="2023-04-07T03:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC009_Locations@2f943d71]" name="afterTest" is-config="true" duration-ms="29" started-at="2023-04-07T03:47:31Z" finished-at="2023-04-07T03:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC009_Locations -->
+    </test> <!-- Locations -->
+    <test name="MyCarZone" duration-ms="100756" started-at="2023-04-07T10:47:31Z" finished-at="2023-04-07T10:49:12Z">
+      <class name="testcases.TC011_MyCarZone">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC011_MyCarZone@2a742aa2]" name="beforeTest" is-config="true" duration-ms="5" started-at="2023-04-07T03:47:31Z" finished-at="2023-04-07T03:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC011_MyCarZone@2a742aa2]" name="beforeMethod" is-config="true" duration-ms="8196" started-at="2023-04-07T03:47:31Z" finished-at="2023-04-07T03:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MyCarZone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyCarZone - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="geoFenceAlert(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC011_MyCarZone@2a742aa2]" name="geoFenceAlert" duration-ms="25133" started-at="2023-04-07T03:47:40Z" data-provider="fetchData" finished-at="2023-04-07T03:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Geo Fence Alert]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Fountain Valley, California]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geoFenceAlert -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC011_MyCarZone@2a742aa2]" name="afterMethod" is-config="true" duration-ms="6478" started-at="2023-04-07T03:48:05Z" finished-at="2023-04-07T03:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC011_MyCarZone@2a742aa2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-04-07T03:48:11Z" finished-at="2023-04-07T03:48:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MyCarZone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyCarZone - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.StackOverflowError">
+            <full-stacktrace>
+              <![CDATA[java.lang.StackOverflowError
+	at java.util.regex.Pattern$GroupHead.match(Unknown Source)
+	at java.util.regex.Pattern$Branch.match(Unknown Source)
+	at java.util.regex.Pattern$Branch.match(Unknown Source)
+	at java.util.regex.Pattern$Branch.match(Unknown Source)
+	at java.util.regex.Pattern$BranchConn.match(Unknown Source)
+	at java.util.regex.Pattern$GroupTail.match(Unknown Source)
+	at java.util.regex.Pattern$Curly.match0(Unknown Source)
+	at java.util.regex.Pattern$Curly.match(Unknown Source)
+	at java.util.regex.Pattern$GroupHead.match(Unknown Source)
+	at java.util.regex.Pattern$Branch.match(Unknown Source)
+	at java.util.regex.Pattern$Branch.match(Unknown Source)
+	at java.util.regex.Pattern$BmpCharProperty.match(Unknown Source)
+	at java.util.regex.Pattern$Start.match(Unknown Source)
+	at java.util.regex.Matcher.search(Unknown Source)
+	at java.util.regex.Matcher.find(Unknown Source)
+	at java.util.Formatter.parse(Unknown Source)
+	at java.util.Formatter.format(Unknown Source)
+	at java.util.Formatter.format(Unknown Source)
+	at java.lang.String.format(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:328)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:785)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+	at utils.Reporter.reportStep(Reporter.java:23)
+	at utils.Reporter.reportStep(Reporter.java:46)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.StackOverflowError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="geoFenceAlert(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC011_MyCarZone@2a742aa2]" name="geoFenceAlert" duration-ms="1" started-at="2023-04-07T03:49:12Z" data-provider="fetchData" finished-at="2023-04-07T03:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My TELLURIDE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Curfew Alert]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geoFenceAlert -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:testcases.TC011_MyCarZone@2a742aa2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-04-07T03:49:12Z" finished-at="2023-04-07T03:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:testcases.TC011_MyCarZone@2a742aa2]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-04-07T03:49:12Z" finished-at="2023-04-07T03:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC011_MyCarZone -->
+    </test> <!-- MyCarZone -->
+  </suite> <!-- KIA-CWP -->
+</testng-results>

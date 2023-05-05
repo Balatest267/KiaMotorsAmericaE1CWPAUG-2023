@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+	
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+	
+	
+<test  name="Login">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC001"></parameter>
+	 <parameter name="testCaseName" value="Login"></parameter>
+	 <parameter name="testDescription" value="Login - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC002_Login">
+		  <methods> 
+		      <include name="Login_5440907"></include>
+			  <include name="Login_5440908"></include>
+			  <include name="Login_5440913"></include>
+			  <include name="Login_5440914"></include> 
+			  <include name="Login_5440916"></include>
+			  <include name="Login_Logout"></include>
+			  <include name="ForgotPassword_5440917"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>  
+</suite> 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testcases.TC007_RemoteSection">
+        <methods>
+          <include name="RemoteSectionClimateStart"/>
+          <include name="RemoteSectionDoorLock"/>
+          <include name="RemoteSectionClimateStop"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="RemoteSection_5754485"/>
+        </methods>
+      </class> <!-- testcases.TC007_RemoteSection -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

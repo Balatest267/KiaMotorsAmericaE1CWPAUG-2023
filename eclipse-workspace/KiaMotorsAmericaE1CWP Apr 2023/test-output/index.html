@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-KIA-CWP">
+              <span class="suite-name border-failed">KIA-CWP</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-KIA-CWP">
+                    <span>D:\TechR-Source\AutomationTesting\Backup\Onshore_Backup\19-03-2023\KMACWP-Latest\Final.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-KIA-CWP">
+                    <span class="test-stats">9 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-KIA-CWP">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-KIA-CWP">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-KIA-CWP">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-KIA-CWP">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-KIA-CWP">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods, 3 failed,  1 skipped,  25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-KIA-CWP" class="hide-methods failed suite-KIA-CWP"> (hide)</a> <!-- hide-methods failed suite-KIA-CWP -->
+                      <a href="#" panel-name="suite-KIA-CWP" class="show-methods failed suite-KIA-CWP"> (show)</a> <!-- show-methods failed suite-KIA-CWP -->
+                    </span>
+                    <div class="method-list-content failed suite-KIA-CWP">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC007_RemoteSection" hash-for-method="RemoteSectionDoorLock(sson@mailinator.com, Password1, My TELLURIDE)">RemoteSectionDoorLock(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC008_Schedules" hash-for-method="enableParentToggle(sson@mailinator.com, Password1, My TELLURIDE)">enableParentToggle(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC008_Schedules" hash-for-method="scheduleIsDisplayedRemoteSection(sson@mailinator.com, Password1, My TELLURIDE)">scheduleIsDisplayedRemoteSection(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-KIA-CWP -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-KIA-CWP" class="hide-methods skipped suite-KIA-CWP"> (hide)</a> <!-- hide-methods skipped suite-KIA-CWP -->
+                      <a href="#" panel-name="suite-KIA-CWP" class="show-methods skipped suite-KIA-CWP"> (show)</a> <!-- show-methods skipped suite-KIA-CWP -->
+                    </span>
+                    <div class="method-list-content skipped suite-KIA-CWP">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC011_MyCarZone" hash-for-method="geoFenceAlert(sson@mailinator.com, Password1, My TELLURIDE, Curfew Alert, )">geoFenceAlert(sson@mailinator.com, Password1, My TELLURIDE, Curfew Alert, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-KIA-CWP -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-KIA-CWP" class="hide-methods passed suite-KIA-CWP"> (hide)</a> <!-- hide-methods passed suite-KIA-CWP -->
+                      <a href="#" panel-name="suite-KIA-CWP" class="show-methods passed suite-KIA-CWP"> (show)</a> <!-- show-methods passed suite-KIA-CWP -->
+                    </span>
+                    <div class="method-list-content passed suite-KIA-CWP">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC005_Dashboard" hash-for-method="DashboardClickDoorLock(sson@mailinator.com, Password1, My TELLURIDE)">DashboardClickDoorLock(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC005_Dashboard" hash-for-method="DashboardClickDoorUnLock(sson@mailinator.com, Password1, My TELLURIDE)">DashboardClickDoorUnLock(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC005_Dashboard" hash-for-method="DashboardClickRemoteClimateStartWithToggles(sson@mailinator.com, Password1, My TELLURIDE)">DashboardClickRemoteClimateStartWithToggles(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC005_Dashboard" hash-for-method="DashboardLastRefreshExist(sson@mailinator.com, Password1, My TELLURIDE)">DashboardLastRefreshExist(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC009_Locations" hash-for-method="LocationsDeletePOI(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)">LocationsDeletePOI(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC009_Locations" hash-for-method="LocationsSavePOI(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)">LocationsSavePOI(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC009_Locations" hash-for-method="LocationsVehicleCurrentLocation(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)">LocationsVehicleCurrentLocation(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC007_RemoteSection" hash-for-method="RemoteSectionClimateStart(sson@mailinator.com, Password1, My TELLURIDE)">RemoteSectionClimateStart(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC007_RemoteSection" hash-for-method="RemoteSectionClimateStop(sson@mailinator.com, Password1, My TELLURIDE)">RemoteSectionClimateStop(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC007_RemoteSection" hash-for-method="RemoteSectionDoorUnlockRS(sson@mailinator.com, Password1, My TELLURIDE)">RemoteSectionDoorUnlockRS(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC006_VehicleStatus" hash-for-method="VehicleStatusVerifyTheVehicleName(sson@mailinator.com, Password1, My TELLURIDE, My TELLURIDE)">VehicleStatusVerifyTheVehicleName(sson@mailinator.com, Password1, My TELLURIDE, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC001_CreateAccount" hash-for-method="clickPrivacyPolicyLink">clickPrivacyPolicyLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC001_CreateAccount" hash-for-method="clickTermsOfServiceLink">clickTermsOfServiceLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC008_Schedules" hash-for-method="createNewSchedule(sson@mailinator.com, Password1, My TELLURIDE)">createNewSchedule(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC008_Schedules" hash-for-method="deleteSchedule(sson@mailinator.com, Password1, My TELLURIDE)">deleteSchedule(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC011_MyCarZone" hash-for-method="geoFenceAlert(sson@mailinator.com, Password1, My TELLURIDE, Geo Fence Alert, Fountain Valley, California)">geoFenceAlert(sson@mailinator.com, Password1, My TELLURIDE, Geo Fence Alert, Fountain Valley, California)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC004_MyVehicles" hash-for-method="myVehiclesClickAddvehicle(sson@mailinator.com, Password1, My TELLURIDE)">myVehiclesClickAddvehicle(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC004_MyVehicles" hash-for-method="myVehiclesPickTheVehicle(sson@mailinator.com, Password1, My TELLURIDE)">myVehiclesPickTheVehicle(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC008_Schedules" hash-for-method="updateExistingSchedule(sson@mailinator.com, Password1, My TELLURIDE)">updateExistingSchedule(sson@mailinator.com, Password1, My TELLURIDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC001_CreateAccount" hash-for-method="verifyCreateAccount">verifyCreateAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC002_Login" hash-for-method="verifyForgotPassword">verifyForgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC002_Login" hash-for-method="verifyLoginIn(sson@mailinator.com, Password1)">verifyLoginIn(sson@mailinator.com, Password1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC002_Login" hash-for-method="verifyLogout(sson@mailinator.com, Password1)">verifyLogout(sson@mailinator.com, Password1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC002_Login" hash-for-method="verifyRememberMecheckbox(sson@mailinator.com, Password1)">verifyRememberMecheckbox(sson@mailinator.com, Password1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KIA-CWP" title="testcases.TC002_Login" hash-for-method="verifySignInIsDisplayed">verifySignInIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-KIA-CWP -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-KIA-CWP" class="panel KIA-CWP">
+          <div class="suite-KIA-CWP-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TC007_RemoteSection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RemoteSectionDoorLock(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- RemoteSectionDoorLock(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">RemoteSectionDoorLock</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                  <div class="stack-trace"><b>"java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:36)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.clickByXpathJavascriptExecutor(GenericWrappers.java:488)
+	at pages.P7_RemoteSection.clickDoorLockRS(P7_RemoteSection.java:32)
+	at testcases.TC007_RemoteSection.RemoteSectionDoorLock(TC007_RemoteSection.java:40)
+... Removed 24 stack frames<br/> java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:36)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.clickByXpathJavascriptExecutor(GenericWrappers.java:488)
+	at pages.P7_RemoteSection.clickDoorLockRS(P7_RemoteSection.java:32)
+	at testcases.TC007_RemoteSection.RemoteSectionDoorLock(TC007_RemoteSection.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+"</b><br>utils.Reporter.reportStep(Reporter.java:36)<br>utils.Reporter.reportStep(Reporter.java:46)<br>wrappers.GenericWrappers.clickByXpathJavascriptExecutor(GenericWrappers.java:488)<br>pages.P7_RemoteSection.clickDoorLockRS(P7_RemoteSection.java:32)<br>testcases.TC007_RemoteSection.RemoteSectionDoorLock(TC007_RemoteSection.java:40)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KIA-CWP-class-failed -->
+          <div class="suite-KIA-CWP-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TC008_Schedules</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enableParentToggle(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- enableParentToggle(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">enableParentToggle</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                  <div class="stack-trace"><b>"java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:36)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:340)
+	at pages.P8_Schedules.enableParentToggle(P8_Schedules.java:70)
+	at testcases.TC008_Schedules.enableParentToggle(TC008_Schedules.java:51)
+... Removed 24 stack frames<br/> java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:36)
+	at utils.Reporter.reportStep(Reporter.java:46)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:340)
+	at pages.P8_Schedules.enableParentToggle(P8_Schedules.java:70)
+	at testcases.TC008_Schedules.enableParentToggle(TC008_Schedules.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+"</b><br>utils.Reporter.reportStep(Reporter.java:36)<br>utils.Reporter.reportStep(Reporter.java:46)<br>wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:340)<br>pages.P8_Schedules.enableParentToggle(P8_Schedules.java:70)<br>testcases.TC008_Schedules.enableParentToggle(TC008_Schedules.java:51)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scheduleIsDisplayedRemoteSection(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- scheduleIsDisplayedRemoteSection(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">scheduleIsDisplayedRemoteSection</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;remote-footer-card climate-schedule&apos;]&quot;}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ICT-2003278-AQA&apos;, ip: &apos;10.108.25.73&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}), userDataDir=C:\Users\2003278\AppData\Local\Temp\scoped_dir40460_872446010}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), webauthn:extension:minPinLength=true, goog:chromeOptions={debuggerAddress=localhost:57463}, webauthn:extension:credBlob=true, webauthn:extension:prf=true, acceptInsecureCerts=false, browserVersion=111.0.5563.147, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: b326ab3e09c80aa7cac712362d8abe8a
+*** Element info: {Using=xpath, value=//*[@class=&apos;remote-footer-card climate-schedule&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at pages.P7_RemoteSection.remoteScheduleIsDisplayed(P7_RemoteSection.java:43)
+	at testcases.TC008_Schedules.scheduleIsDisplayedRemoteSection(TC008_Schedules.java:66)
+... Removed 28 stack frames<br/> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;remote-footer-card climate-schedule&apos;]&quot;}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ICT-2003278-AQA&apos;, ip: &apos;10.108.25.73&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}), userDataDir=C:\Users\2003278\AppData\Local\Temp\scoped_dir40460_872446010}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), webauthn:extension:minPinLength=true, goog:chromeOptions={debuggerAddress=localhost:57463}, webauthn:extension:credBlob=true, webauthn:extension:prf=true, acceptInsecureCerts=false, browserVersion=111.0.5563.147, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: b326ab3e09c80aa7cac712362d8abe8a
+*** Element info: {Using=xpath, value=//*[@class=&apos;remote-footer-card climate-schedule&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at pages.P7_RemoteSection.remoteScheduleIsDisplayed(P7_RemoteSection.java:43)
+	at testcases.TC008_Schedules.scheduleIsDisplayedRemoteSection(TC008_Schedules.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+"</b><br>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br>java.lang.reflect.Constructor.newInstance(Unknown Source)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)<br>org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)<br>org.openqa.selenium.By$ByXPath.findElement(By.java:361)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)<br>pages.P7_RemoteSection.remoteScheduleIsDisplayed(P7_RemoteSection.java:43)<br>testcases.TC008_Schedules.scheduleIsDisplayedRemoteSection(TC008_Schedules.java:66)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KIA-CWP-class-failed -->
+          <div class="suite-KIA-CWP-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.TC011_MyCarZone</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="geoFenceAlert(sson@mailinator.com, Password1, My TELLURIDE, Curfew Alert, )">
+                  </a> <!-- geoFenceAlert(sson@mailinator.com, Password1, My TELLURIDE, Curfew Alert, ) -->
+                  <span class="method-name">geoFenceAlert</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE, Curfew Alert, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KIA-CWP-class-skipped -->
+          <div class="suite-KIA-CWP-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC005_Dashboard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DashboardClickDoorLock(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- DashboardClickDoorLock(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">DashboardClickDoorLock</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DashboardClickDoorUnLock(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- DashboardClickDoorUnLock(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">DashboardClickDoorUnLock</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DashboardClickRemoteClimateStartWithToggles(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- DashboardClickRemoteClimateStartWithToggles(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">DashboardClickRemoteClimateStartWithToggles</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DashboardLastRefreshExist(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- DashboardLastRefreshExist(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">DashboardLastRefreshExist</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KIA-CWP-class-passed -->
+          <div class="suite-KIA-CWP-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC007_RemoteSection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RemoteSectionClimateStart(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- RemoteSectionClimateStart(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">RemoteSectionClimateStart</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RemoteSectionClimateStop(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- RemoteSectionClimateStop(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">RemoteSectionClimateStop</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RemoteSectionDoorUnlockRS(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- RemoteSectionDoorUnlockRS(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">RemoteSectionDoorUnlockRS</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KIA-CWP-class-passed -->
+          <div class="suite-KIA-CWP-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC001_CreateAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickPrivacyPolicyLink">
+                  </a> <!-- clickPrivacyPolicyLink -->
+                  <span class="method-name">clickPrivacyPolicyLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickTermsOfServiceLink">
+                  </a> <!-- clickTermsOfServiceLink -->
+                  <span class="method-name">clickTermsOfServiceLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateAccount">
+                  </a> <!-- verifyCreateAccount -->
+                  <span class="method-name">verifyCreateAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KIA-CWP-class-passed -->
+          <div class="suite-KIA-CWP-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC011_MyCarZone</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="geoFenceAlert(sson@mailinator.com, Password1, My TELLURIDE, Geo Fence Alert, Fountain Valley, California)">
+                  </a> <!-- geoFenceAlert(sson@mailinator.com, Password1, My TELLURIDE, Geo Fence Alert, Fountain Valley, California) -->
+                  <span class="method-name">geoFenceAlert</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE, Geo Fence Alert, Fountain Valley, California)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KIA-CWP-class-passed -->
+          <div class="suite-KIA-CWP-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC006_VehicleStatus</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VehicleStatusVerifyTheVehicleName(sson@mailinator.com, Password1, My TELLURIDE, My TELLURIDE)">
+                  </a> <!-- VehicleStatusVerifyTheVehicleName(sson@mailinator.com, Password1, My TELLURIDE, My TELLURIDE) -->
+                  <span class="method-name">VehicleStatusVerifyTheVehicleName</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE, My TELLURIDE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KIA-CWP-class-passed -->
+          <div class="suite-KIA-CWP-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC008_Schedules</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewSchedule(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- createNewSchedule(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">createNewSchedule</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteSchedule(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- deleteSchedule(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">deleteSchedule</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateExistingSchedule(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- updateExistingSchedule(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">updateExistingSchedule</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KIA-CWP-class-passed -->
+          <div class="suite-KIA-CWP-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC002_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPassword">
+                  </a> <!-- verifyForgotPassword -->
+                  <span class="method-name">verifyForgotPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginIn(sson@mailinator.com, Password1)">
+                  </a> <!-- verifyLoginIn(sson@mailinator.com, Password1) -->
+                  <span class="method-name">verifyLoginIn</span>
+                  <span class="parameters">(sson@mailinator.com, Password1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogout(sson@mailinator.com, Password1)">
+                  </a> <!-- verifyLogout(sson@mailinator.com, Password1) -->
+                  <span class="method-name">verifyLogout</span>
+                  <span class="parameters">(sson@mailinator.com, Password1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRememberMecheckbox(sson@mailinator.com, Password1)">
+                  </a> <!-- verifyRememberMecheckbox(sson@mailinator.com, Password1) -->
+                  <span class="method-name">verifyRememberMecheckbox</span>
+                  <span class="parameters">(sson@mailinator.com, Password1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignInIsDisplayed">
+                  </a> <!-- verifySignInIsDisplayed -->
+                  <span class="method-name">verifySignInIsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KIA-CWP-class-passed -->
+          <div class="suite-KIA-CWP-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC004_MyVehicles</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="myVehiclesClickAddvehicle(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- myVehiclesClickAddvehicle(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">myVehiclesClickAddvehicle</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="myVehiclesPickTheVehicle(sson@mailinator.com, Password1, My TELLURIDE)">
+                  </a> <!-- myVehiclesPickTheVehicle(sson@mailinator.com, Password1, My TELLURIDE) -->
+                  <span class="method-name">myVehiclesPickTheVehicle</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KIA-CWP-class-passed -->
+          <div class="suite-KIA-CWP-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC009_Locations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LocationsDeletePOI(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)">
+                  </a> <!-- LocationsDeletePOI(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal) -->
+                  <span class="method-name">LocationsDeletePOI</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LocationsSavePOI(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)">
+                  </a> <!-- LocationsSavePOI(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal) -->
+                  <span class="method-name">LocationsSavePOI</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LocationsVehicleCurrentLocation(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)">
+                  </a> <!-- LocationsVehicleCurrentLocation(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal) -->
+                  <span class="method-name">LocationsVehicleCurrentLocation</span>
+                  <span class="parameters">(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KIA-CWP-class-passed -->
+        </div> <!-- panel KIA-CWP -->
+        <div panel-name="test-xml-KIA-CWP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\TechR-Source\AutomationTesting\Backup\Onshore_Backup\19-03-2023\KMACWP-Latest\Final.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;KIA-CWP&quot;&gt;
+  &lt;parameter name=&quot;category&quot; value=&quot;Smoke Testing&quot;/&gt;
+  &lt;parameter name=&quot;authors&quot; value=&quot;HAEA-KIA&quot;/&gt;
+  &lt;test name=&quot;Create Account&quot;&gt;
+    &lt;parameter name=&quot;dataSheetName&quot; value=&quot;TC001&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;testCaseName&quot; value=&quot;Create Account&quot;/&gt;
+    &lt;parameter name=&quot;testDescription&quot; value=&quot;Create Account - Smoke Test&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC001_CreateAccount&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyCreateAccount&quot;/&gt;
+          &lt;include name=&quot;clickTermsOfServiceLink&quot;/&gt;
+          &lt;include name=&quot;clickPrivacyPolicyLink&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC001_CreateAccount --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create Account --&gt;
+  &lt;test name=&quot;Login&quot;&gt;
+    &lt;parameter name=&quot;dataSheetName&quot; value=&quot;TC002&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;testCaseName&quot; value=&quot;Login&quot;/&gt;
+    &lt;parameter name=&quot;testDescription&quot; value=&quot;Login - Smoke Test&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC002_Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifySignInIsDisplayed&quot;/&gt;
+          &lt;include name=&quot;verifyLoginIn&quot;/&gt;
+          &lt;include name=&quot;verifyForgotPassword&quot;/&gt;
+          &lt;include name=&quot;verifyRememberMecheckbox&quot;/&gt;
+          &lt;include name=&quot;verifyLogout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC002_Login --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login --&gt;
+  &lt;test name=&quot;My Vehicles&quot;&gt;
+    &lt;parameter name=&quot;dataSheetName&quot; value=&quot;TC004&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;testCaseName&quot; value=&quot;My Vehicles&quot;/&gt;
+    &lt;parameter name=&quot;testDescription&quot; value=&quot;My Vehicles - Smoke Test&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC004_MyVehicles&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;myVehiclesPickTheVehicle&quot;/&gt;
+          &lt;include name=&quot;myVehiclesClickAddvehicle&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC004_MyVehicles --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- My Vehicles --&gt;
+  &lt;test name=&quot;Dashboard&quot;&gt;
+    &lt;parameter name=&quot;dataSheetName&quot; value=&quot;TC005&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;testCaseName&quot; value=&quot;Dashboard&quot;/&gt;
+    &lt;parameter name=&quot;testDescription&quot; value=&quot;Dashboard - Smoke Test&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC005_Dashboard&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;DashboardClickDoorUnLock&quot;/&gt;
+          &lt;include name=&quot;DashboardClickDoorLock&quot;/&gt;
+          &lt;include name=&quot;clickRemoteStartStop&quot;/&gt;
+          &lt;include name=&quot;Dashboard_ClickMasterRefresh&quot;/&gt;
+          &lt;include name=&quot;DashboardLastRefreshExist&quot;/&gt;
+          &lt;include name=&quot;DashboardClickRemoteClimateStartWithToggles&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC005_Dashboard --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Dashboard --&gt;
+  &lt;test name=&quot;VehicleStatus&quot;&gt;
+    &lt;parameter name=&quot;dataSheetName&quot; value=&quot;TC006&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;testCaseName&quot; value=&quot;VehicleStatus&quot;/&gt;
+    &lt;parameter name=&quot;testDescription&quot; value=&quot;My Vehicles - Smoke Test&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC006_VehicleStatus&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;VehicleStatusVerifyTheVehicleName&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC006_VehicleStatus --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VehicleStatus --&gt;
+  &lt;test name=&quot;RemoteSection&quot;&gt;
+    &lt;parameter name=&quot;dataSheetName&quot; value=&quot;TC007&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;testCaseName&quot; value=&quot;RemoteSection&quot;/&gt;
+    &lt;parameter name=&quot;testDescription&quot; value=&quot;RemoteSection - Smoke Test&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC007_RemoteSection&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;RemoteSectionDoorUnlockRS&quot;/&gt;
+          &lt;include name=&quot;RemoteSectionDoorLock&quot;/&gt;
+          &lt;include name=&quot;RemoteSectionClimateStart&quot;/&gt;
+          &lt;include name=&quot;RemoteSectionClimateStop&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC007_RemoteSection --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RemoteSection --&gt;
+  &lt;test name=&quot;Schedules&quot;&gt;
+    &lt;parameter name=&quot;dataSheetName&quot; value=&quot;TC008&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;testCaseName&quot; value=&quot;Schedules&quot;/&gt;
+    &lt;parameter name=&quot;testDescription&quot; value=&quot;Schedules - Smoke Test&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC008_Schedules&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;createNewSchedule&quot;/&gt;
+          &lt;include name=&quot;updateExistingSchedule&quot;/&gt;
+          &lt;include name=&quot;enableParentToggle&quot;/&gt;
+          &lt;include name=&quot;scheduleIsDisplayedRemoteSection&quot;/&gt;
+          &lt;include name=&quot;deleteSchedule&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC008_Schedules --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Schedules --&gt;
+  &lt;test name=&quot;Locations&quot;&gt;
+    &lt;parameter name=&quot;dataSheetName&quot; value=&quot;TC009&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;testCaseName&quot; value=&quot;Locations&quot;/&gt;
+    &lt;parameter name=&quot;testDescription&quot; value=&quot;Locations - Smoke Test&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC009_Locations&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;LocationsVehicleCurrentLocation&quot;/&gt;
+          &lt;include name=&quot;LocationsSavePOI&quot;/&gt;
+          &lt;include name=&quot;LocationsDeletePOI&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC009_Locations --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Locations --&gt;
+  &lt;test name=&quot;MyCarZone&quot;&gt;
+    &lt;parameter name=&quot;dataSheetName&quot; value=&quot;TC011&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;testCaseName&quot; value=&quot;MyCarZone&quot;/&gt;
+    &lt;parameter name=&quot;testDescription&quot; value=&quot;MyCarZone - Smoke Test&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC011_MyCarZone&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;geoFenceAlert&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.TC011_MyCarZone --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MyCarZone --&gt;
+&lt;/suite&gt; &lt;!-- KIA-CWP --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-KIA-CWP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for KIA-CWP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Create Account (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">My Vehicles (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Dashboard (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VehicleStatus (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RemoteSection (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Schedules (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Locations (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MyCarZone (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-KIA-CWP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for KIA-CWP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickPrivacyPolicyLink</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickTermsOfServiceLink</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCreateAccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-KIA-CWP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for KIA-CWP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_KIA-CWP');
+function tableData_KIA-CWP() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'RemoteSectionDoorLock')
+data.setCell(0, 2, 'testcases.TC007_RemoteSection')
+data.setCell(0, 3, 72831);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'scheduleIsDisplayedRemoteSection')
+data.setCell(1, 2, 'testcases.TC008_Schedules')
+data.setCell(1, 3, 56517);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'RemoteSectionDoorUnlockRS')
+data.setCell(2, 2, 'testcases.TC007_RemoteSection')
+data.setCell(2, 3, 54018);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'DashboardClickDoorUnLock')
+data.setCell(3, 2, 'testcases.TC005_Dashboard')
+data.setCell(3, 3, 51514);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'RemoteSectionClimateStart')
+data.setCell(4, 2, 'testcases.TC007_RemoteSection')
+data.setCell(4, 3, 46303);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LocationsDeletePOI')
+data.setCell(5, 2, 'testcases.TC009_Locations')
+data.setCell(5, 3, 39568);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LocationsSavePOI')
+data.setCell(6, 2, 'testcases.TC009_Locations')
+data.setCell(6, 3, 39193);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'DashboardClickRemoteClimateStartWithToggles')
+data.setCell(7, 2, 'testcases.TC005_Dashboard')
+data.setCell(7, 3, 37859);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'DashboardClickDoorLock')
+data.setCell(8, 2, 'testcases.TC005_Dashboard')
+data.setCell(8, 3, 34996);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'RemoteSectionClimateStop')
+data.setCell(9, 2, 'testcases.TC007_RemoteSection')
+data.setCell(9, 3, 34568);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createNewSchedule')
+data.setCell(10, 2, 'testcases.TC008_Schedules')
+data.setCell(10, 3, 32190);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LocationsVehicleCurrentLocation')
+data.setCell(11, 2, 'testcases.TC009_Locations')
+data.setCell(11, 3, 31224);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'updateExistingSchedule')
+data.setCell(12, 2, 'testcases.TC008_Schedules')
+data.setCell(12, 3, 30636);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'enableParentToggle')
+data.setCell(13, 2, 'testcases.TC008_Schedules')
+data.setCell(13, 3, 28954);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'geoFenceAlert')
+data.setCell(14, 2, 'testcases.TC011_MyCarZone')
+data.setCell(14, 3, 25133);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'deleteSchedule')
+data.setCell(15, 2, 'testcases.TC008_Schedules')
+data.setCell(15, 3, 24293);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VehicleStatusVerifyTheVehicleName')
+data.setCell(16, 2, 'testcases.TC006_VehicleStatus')
+data.setCell(16, 3, 19149);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyRememberMecheckbox')
+data.setCell(17, 2, 'testcases.TC002_Login')
+data.setCell(17, 3, 18342);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'DashboardLastRefreshExist')
+data.setCell(18, 2, 'testcases.TC005_Dashboard')
+data.setCell(18, 3, 18056);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'myVehiclesPickTheVehicle')
+data.setCell(19, 2, 'testcases.TC004_MyVehicles')
+data.setCell(19, 3, 17295);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'clickTermsOfServiceLink')
+data.setCell(20, 2, 'testcases.TC001_CreateAccount')
+data.setCell(20, 3, 16621);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyLogout')
+data.setCell(21, 2, 'testcases.TC002_Login')
+data.setCell(21, 3, 13946);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'clickPrivacyPolicyLink')
+data.setCell(22, 2, 'testcases.TC001_CreateAccount')
+data.setCell(22, 3, 13410);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'myVehiclesClickAddvehicle')
+data.setCell(23, 2, 'testcases.TC004_MyVehicles')
+data.setCell(23, 3, 9367);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyLoginIn')
+data.setCell(24, 2, 'testcases.TC002_Login')
+data.setCell(24, 3, 8786);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyForgotPassword')
+data.setCell(25, 2, 'testcases.TC002_Login')
+data.setCell(25, 3, 4331);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyCreateAccount')
+data.setCell(26, 2, 'testcases.TC001_CreateAccount')
+data.setCell(26, 3, 3039);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifySignInIsDisplayed')
+data.setCell(27, 2, 'testcases.TC002_Login')
+data.setCell(27, 3, 2526);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'geoFenceAlert')
+data.setCell(28, 2, 'testcases.TC011_MyCarZone')
+data.setCell(28, 3, 1);
+window.suiteTableData['KIA-CWP']= { tableData: data, tableDiv: 'times-div-KIA-CWP'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 minutes</span>
+              <div id="times-div-KIA-CWP">
+              </div> <!-- times-div-KIA-CWP -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-KIA-CWP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for KIA-CWP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-KIA-CWP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">7 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.TC005_Dashboard</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">DashboardClickMasterRefresh</span>
+                <br/>
+                <span class="ignored-method-name">DashboardClickRemoteClimateStart</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.TC011_MyCarZone</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">curfewAlert</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.TC002_Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Login_5440916</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.TC009_Locations</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">LocationsAddTags</span>
+                <br/>
+                <span class="ignored-method-name">LocationsSavePOISendToVehiclenDelete</span>
+                <br/>
+                <span class="ignored-method-name">LocationsSearchIsPresent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-KIA-CWP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC001_CreateAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Create Account, Create Account - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateAccount</span>
+                <span class="method-start">10158 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">13198 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Create Account, Create Account - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">19731 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickTermsOfServiceLink</span>
+                <span class="method-start">28023 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">44644 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Create Account, Create Account - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">51613 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickPrivacyPolicyLink</span>
+                <span class="method-start">59896 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">73306 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">79845 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC002_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">80243 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Login, Login - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">80250 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignInIsDisplayed</span>
+                <span class="method-start">89534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">92061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Login, Login - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">99132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginIn(sson@mailinator.com, Password1)</span>
+                <span class="method-start">109909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">118696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Login, Login - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">125026 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPassword</span>
+                <span class="method-start">133148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">137482 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Login, Login - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">143776 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRememberMecheckbox(sson@mailinator.com, Password1)</span>
+                <span class="method-start">152299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">170642 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Login, Login - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">176974 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogout(sson@mailinator.com, Password1)</span>
+                <span class="method-start">185670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">199617 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">206092 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC004_MyVehicles</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">206166 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, My Vehicles, My Vehicles - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">206258 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">myVehiclesPickTheVehicle(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">215034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">232330 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, My Vehicles, My Vehicles - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">238913 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">myVehiclesClickAddvehicle(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">246418 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">255785 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">262022 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC005_Dashboard</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">262079 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Dashboard, Dashboard - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">262174 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DashboardClickDoorUnLock(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">272198 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">323712 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Dashboard, Dashboard - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">330662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DashboardClickDoorLock(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">338534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">373531 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Dashboard, Dashboard - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">380061 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DashboardLastRefreshExist(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">388349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">406406 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Dashboard, Dashboard - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">412905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DashboardClickRemoteClimateStartWithToggles(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">420346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">458206 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">464847 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC006_VehicleStatus</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">464914 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, VehicleStatus, My Vehicles - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">465010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VehicleStatusVerifyTheVehicleName(sson@mailinator.com, Password1, My TELLURIDE, My TELLURIDE)</span>
+                <span class="method-start">474440 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">493590 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">501061 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC007_RemoteSection</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">501114 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, RemoteSection, RemoteSection - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">501196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RemoteSectionDoorUnlockRS(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">509211 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">563229 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, RemoteSection, RemoteSection - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">569801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RemoteSectionDoorLock(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">577420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">650252 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, RemoteSection, RemoteSection - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">656716 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RemoteSectionClimateStart(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">665039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">711343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, RemoteSection, RemoteSection - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">717805 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RemoteSectionClimateStop(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">726041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">760609 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">768075 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC008_Schedules</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">768128 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Schedules, Schedules - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">768215 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewSchedule(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">776439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">808630 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Schedules, Schedules - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">815248 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateExistingSchedule(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">823299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">853936 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Schedules, Schedules - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">860484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">enableParentToggle(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">868199 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">897154 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Schedules, Schedules - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">903598 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">scheduleIsDisplayedRemoteSection(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">911897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">968421 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Schedules, Schedules - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">974906 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteSchedule(sson@mailinator.com, Password1, My TELLURIDE)</span>
+                <span class="method-start">983340 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1007634 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">1014127 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC009_Locations</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1014181 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Locations, Locations - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">1014258 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LocationsVehicleCurrentLocation(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)</span>
+                <span class="method-start">1023030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1054254 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Locations, Locations - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">1060746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LocationsSavePOI(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)</span>
+                <span class="method-start">1069195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1108388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, Locations, Locations - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">1114837 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LocationsDeletePOI(sson@mailinator.com, Password1, My TELLURIDE, Hertz, Personal)</span>
+                <span class="method-start">1122585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1162153 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">1168629 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC011_MyCarZone</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">1168675 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, MyCarZone, MyCarZone - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">1168751 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">geoFenceAlert(sson@mailinator.com, Password1, My TELLURIDE, Geo Fence Alert, Fountain Valley, California)</span>
+                <span class="method-start">1176947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1202081 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod(chrome, MyCarZone, MyCarZone - Smoke Test, Smoke Testing, HAEA-KIA)</span>
+                <span class="method-start">1208559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">geoFenceAlert(sson@mailinator.com, Password1, My TELLURIDE, Curfew Alert, )</span>
+                <span class="method-start">1269429 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

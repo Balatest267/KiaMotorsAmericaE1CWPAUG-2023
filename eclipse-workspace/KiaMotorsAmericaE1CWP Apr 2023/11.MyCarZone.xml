@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+	
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+	
+	<test  name="MyCarZone" preserve-order="true">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC011"></parameter>
+	 <parameter name="testCaseName" value="MyCarZone"></parameter>
+	 <parameter name="testDescription" value="MyCarZone - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC011_MyCarZone">
+		  <methods>  
+			  <include name="geoFenceAlert"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+	
+</suite> <!-- Suite -->

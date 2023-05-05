@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="KMA-CWP" parallel="classes" thread-count="1">
+  <test name="Login">
+    <classes>
+      
+       <class name="testcases.TC001_1_CA_5440906"/>
+    </classes>
+  </test>   
+</suite> 

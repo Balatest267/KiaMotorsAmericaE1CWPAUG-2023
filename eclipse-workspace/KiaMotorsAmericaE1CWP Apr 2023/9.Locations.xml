@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+	
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+	
+	  <test  name="Locations" preserve-order="true">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC009"></parameter>
+	 <parameter name="testCaseName" value="Locations"></parameter>
+	 <parameter name="testDescription" value="Locations - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC009_Locations">
+		  <methods>  
+		  		<include name="LocationsSearchIsPresent"> </include>
+		  		<include name="LocationsVehicleCurrentLocation"> </include>
+		  		<include name="LocationsSavePOI"> </include>
+		  		<include name="LocationsDeletePOI"> </include>
+		  		<include name="LocationsSavePOISendToVehiclenDelete"> </include>
+		 
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+	
+</suite> <!-- Suite -->

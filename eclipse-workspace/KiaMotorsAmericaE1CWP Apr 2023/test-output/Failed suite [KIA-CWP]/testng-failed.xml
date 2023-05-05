@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [KIA-CWP]]">
+  <parameter name="dataSheetName" value="TC008"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="testCaseName" value="Schedules"/>
+  <parameter name="category" value="Smoke Testing"/>
+  <parameter name="testDescription" value="Schedules - Smoke Test"/>
+  <parameter name="authors" value="HAEA-KIA"/>
+  <test name="Schedules(failed)(failed)">
+    <parameter name="dataSheetName" value="TC008"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testCaseName" value="Schedules"/>
+    <parameter name="testDescription" value="Schedules - Smoke Test"/>
+    <classes>
+      <class name="testcases.TC008_Schedules">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="enableParentToggle"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="scheduleIsDisplayedRemoteSection"/>
+        </methods>
+      </class> <!-- testcases.TC008_Schedules -->
+      <class name="testcases.TC002_Login">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcases.TC002_Login -->
+      <class name="testcases.TC007_RemoteSection">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcases.TC007_RemoteSection -->
+    </classes>
+  </test> <!-- Schedules(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [KIA-CWP]] -->

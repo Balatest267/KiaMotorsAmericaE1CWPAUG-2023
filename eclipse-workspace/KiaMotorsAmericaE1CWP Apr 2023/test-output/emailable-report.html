@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Create Account</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">80.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Login</td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">125.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">My Vehicles</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">55.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Dashboard</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi">0</td><td class="numi">202.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">VehicleStatus</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">36.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">RemoteSection</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">267.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Schedules</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">246.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Locations</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">154.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">MyCarZone</td><td class="numi">2</td><td class="numi">1</td><td class="numi_attn">2</td><td class="numi">0</td><td class="numi">100.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">26</td><td class="numi">25</td><td class="numi_attn">2</td><td class="numi_attn">3</td><td class="numi">1,269.4 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Create Account &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="3">testcases.TC001_CreateAccount</td><td><a href="#m1"><b>clickPrivacyPolicyLink</b> (smoke) </a></td><td class="numi">1</td><td>1680863342972</td><td class="numi">13410</td></tr><tr class="passedodd"><td><a href="#m2"><b>clickTermsOfServiceLink</b> (smoke) </a></td><td class="numi">1</td><td>1680863311099</td><td class="numi">16621</td></tr><tr class="passedodd"><td><a href="#m3"><b>verifyCreateAccount</b> (smoke) </a></td><td class="numi">1</td><td>1680863293234</td><td class="numi">3039</td></tr>
+<tr><th colspan="4">Login &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">testcases.TC002_Login</td><td><a href="#m4"><b>verifyForgotPassword</b>  </a></td><td class="numi">1</td><td>1680863416224</td><td class="numi">4331</td></tr><tr class="passedodd"><td><a href="#m5"><b>verifyLoginIn</b>  </a></td><td class="numi">1</td><td>1680863392985</td><td class="numi">8786</td></tr><tr class="passedodd"><td><a href="#m6"><b>verifyLogout</b>  </a></td><td class="numi">1</td><td>1680863468746</td><td class="numi">13946</td></tr><tr class="passedodd"><td><a href="#m7"><b>verifyRememberMecheckbox</b>  </a></td><td class="numi">1</td><td>1680863435375</td><td class="numi">18342</td></tr><tr class="passedodd"><td><a href="#m8"><b>verifySignInIsDisplayed</b>  </a></td><td class="numi">1</td><td>1680863372610</td><td class="numi">2526</td></tr>
+<tr><th colspan="4">My Vehicles &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">testcases.TC004_MyVehicles</td><td><a href="#m9"><b>myVehiclesClickAddvehicle</b>  </a></td><td class="numi">1</td><td>1680863529494</td><td class="numi">9367</td></tr><tr class="passedodd"><td><a href="#m10"><b>myVehiclesPickTheVehicle</b>  </a></td><td class="numi">1</td><td>1680863498110</td><td class="numi">17295</td></tr>
+<tr><th colspan="4">Dashboard &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="4">testcases.TC005_Dashboard</td><td><a href="#m11"><b>DashboardClickDoorLock</b>  </a></td><td class="numi">1</td><td>1680863621610</td><td class="numi">34996</td></tr><tr class="passedodd"><td><a href="#m12"><b>DashboardClickDoorUnLock</b>  </a></td><td class="numi">1</td><td>1680863555274</td><td class="numi">51514</td></tr><tr class="passedodd"><td><a href="#m13"><b>DashboardClickRemoteClimateStartWithToggles</b>  </a></td><td class="numi">1</td><td>1680863703422</td><td class="numi">37859</td></tr><tr class="passedodd"><td><a href="#m14"><b>DashboardLastRefreshExist</b>  </a></td><td class="numi">1</td><td>1680863671425</td><td class="numi">18056</td></tr>
+<tr><th colspan="4">VehicleStatus &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">testcases.TC006_VehicleStatus</td><td><a href="#m15"><b>VehicleStatusVerifyTheVehicleName</b>  </a></td><td class="numi">1</td><td>1680863757516</td><td class="numi">19149</td></tr>
+<tr><th colspan="4">RemoteSection &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">testcases.TC007_RemoteSection</td><td><a href="#m16"><b>RemoteSectionDoorLock</b>  </a></td><td class="numi">1</td><td>1680863860496</td><td class="numi">72831</td></tr>
+<tr><th colspan="4">RemoteSection &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="3">testcases.TC007_RemoteSection</td><td><a href="#m17"><b>RemoteSectionClimateStart</b>  </a></td><td class="numi">1</td><td>1680863948115</td><td class="numi">46303</td></tr><tr class="passedodd"><td><a href="#m18"><b>RemoteSectionClimateStop</b>  </a></td><td class="numi">1</td><td>1680864009117</td><td class="numi">34568</td></tr><tr class="passedodd"><td><a href="#m19"><b>RemoteSectionDoorUnlockRS</b>  </a></td><td class="numi">1</td><td>1680863792287</td><td class="numi">54018</td></tr>
+<tr><th colspan="4">Schedules &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="2">testcases.TC008_Schedules</td><td><a href="#m20"><b>enableParentToggle</b>  </a></td><td class="numi">1</td><td>1680864151275</td><td class="numi">28954</td></tr><tr class="failedodd"><td><a href="#m21"><b>scheduleIsDisplayedRemoteSection</b>  </a></td><td class="numi">1</td><td>1680864194973</td><td class="numi">56517</td></tr>
+<tr><th colspan="4">Schedules &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="3">testcases.TC008_Schedules</td><td><a href="#m22"><b>createNewSchedule</b>  </a></td><td class="numi">1</td><td>1680864059515</td><td class="numi">32190</td></tr><tr class="passedodd"><td><a href="#m23"><b>deleteSchedule</b>  </a></td><td class="numi">1</td><td>1680864266416</td><td class="numi">24293</td></tr><tr class="passedodd"><td><a href="#m24"><b>updateExistingSchedule</b>  </a></td><td class="numi">1</td><td>1680864106375</td><td class="numi">30636</td></tr>
+<tr><th colspan="4">Locations &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="3">testcases.TC009_Locations</td><td><a href="#m25"><b>LocationsDeletePOI</b>  </a></td><td class="numi">1</td><td>1680864405661</td><td class="numi">39568</td></tr><tr class="passedodd"><td><a href="#m26"><b>LocationsSavePOI</b>  </a></td><td class="numi">1</td><td>1680864352271</td><td class="numi">39193</td></tr><tr class="passedodd"><td><a href="#m27"><b>LocationsVehicleCurrentLocation</b>  </a></td><td class="numi">1</td><td>1680864306106</td><td class="numi">31224</td></tr>
+<tr><th colspan="4">MyCarZone &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="2">testcases.TC011_MyCarZone</td><td><a href="#m28"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1680864491635</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m29"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1680864491635</td><td class="numi">0</td></tr>
+<tr><th colspan="4">MyCarZone &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="2">testcases.TC011_MyCarZone</td><td><a href="#m30"><b>afterMethod</b>  </a></td><td class="numi">1</td><td>1680864552506</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m31"><b>afterTest</b>  </a></td><td class="numi">1</td><td>1680864552507</td><td class="numi">0</td></tr>
+<tr><th colspan="4">MyCarZone &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">testcases.TC011_MyCarZone</td><td><a href="#m32"><b>geoFenceAlert</b>  </a></td><td class="numi">1</td><td>1680864552505</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m33"><b>geoFenceAlert</b>  </a></td><td class="numi">1</td><td>1680864552505</td><td class="numi">1</td></tr>
+<tr><th colspan="4">MyCarZone &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">testcases.TC011_MyCarZone</td><td><a href="#m34"><b>geoFenceAlert</b>  </a></td><td class="numi">1</td><td>1680864460023</td><td class="numi">25133</td></tr><tr class="passedodd"><td><a href="#m35"><b>geoFenceAlert</b>  </a></td><td class="numi">1</td><td>1680864460023</td><td class="numi">25133</td></tr>
+</table>
+<h1>Create Account</h1>
+<h2 id="m1">testcases.TC001_CreateAccount:verifyCreateAccount</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">testcases.TC001_CreateAccount:clickPrivacyPolicyLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">testcases.TC001_CreateAccount:clickTermsOfServiceLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Login</h1>
+<h2 id="m4">testcases.TC002_Login:verifyLoginIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">testcases.TC002_Login:verifySignInIsDisplayed</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">testcases.TC002_Login:verifyForgotPassword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">testcases.TC002_Login:verifyRememberMecheckbox</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">testcases.TC002_Login:verifyLogout</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>My Vehicles</h1>
+<h2 id="m9">testcases.TC004_MyVehicles:myVehiclesPickTheVehicle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">testcases.TC004_MyVehicles:myVehiclesClickAddvehicle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Dashboard</h1>
+<h2 id="m11">testcases.TC005_Dashboard:DashboardClickDoorLock</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">testcases.TC005_Dashboard:DashboardClickRemoteClimateStartWithToggles</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">testcases.TC005_Dashboard:DashboardLastRefreshExist</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">testcases.TC005_Dashboard:DashboardClickDoorUnLock</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>VehicleStatus</h1>
+<h2 id="m15">testcases.TC006_VehicleStatus:VehicleStatusVerifyTheVehicleName</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+<td>My TELLURIDE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>RemoteSection</h1>
+<h2 id="m16">testcases.TC007_RemoteSection:RemoteSectionDoorLock</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="3">
+<p>FAILED</p>
+utils.Reporter.reportStep(Reporter.java:36)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.clickByXpathJavascriptExecutor(GenericWrappers.java:488)
+<br/>at pages.P7_RemoteSection.clickDoorLockRS(P7_RemoteSection.java:32)
+<br/>at testcases.TC007_RemoteSection.RemoteSectionDoorLock(TC007_RemoteSection.java:40)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">testcases.TC007_RemoteSection:RemoteSectionClimateStop</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">testcases.TC007_RemoteSection:RemoteSectionDoorUnlockRS</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">testcases.TC007_RemoteSection:RemoteSectionClimateStart</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Schedules</h1>
+<h2 id="m20">testcases.TC008_Schedules:scheduleIsDisplayedRemoteSection</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="3">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;remote-footer-card climate-schedule&apos;]&quot;}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ICT-2003278-AQA&apos;, ip: &apos;10.108.25.73&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}), userDataDir=C:\Users\2003278\AppData\Local\Temp\scoped_dir40460_872446010}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), webauthn:extension:minPinLength=true, goog:chromeOptions={debuggerAddress=localhost:57463}, webauthn:extension:credBlob=true, webauthn:extension:prf=true, acceptInsecureCerts=false, browserVersion=111.0.5563.147, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: b326ab3e09c80aa7cac712362d8abe8a
+*** Element info: {Using=xpath, value=//*[@class=&apos;remote-footer-card climate-schedule&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+<br/>at pages.P7_RemoteSection.remoteScheduleIsDisplayed(P7_RemoteSection.java:43)
+<br/>at testcases.TC008_Schedules.scheduleIsDisplayedRemoteSection(TC008_Schedules.java:66)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">testcases.TC008_Schedules:enableParentToggle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="3">
+<p>FAILED</p>
+utils.Reporter.reportStep(Reporter.java:36)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:340)
+<br/>at pages.P8_Schedules.enableParentToggle(P8_Schedules.java:70)
+<br/>at testcases.TC008_Schedules.enableParentToggle(TC008_Schedules.java:51)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">testcases.TC008_Schedules:deleteSchedule</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">testcases.TC008_Schedules:updateExistingSchedule</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">testcases.TC008_Schedules:createNewSchedule</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Locations</h1>
+<h2 id="m25">testcases.TC009_Locations:LocationsVehicleCurrentLocation</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+<td>Hertz</td>
+<td>Personal</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">testcases.TC009_Locations:LocationsSavePOI</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+<td>Hertz</td>
+<td>Personal</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">testcases.TC009_Locations:LocationsDeletePOI</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+<td>Hertz</td>
+<td>Personal</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>MyCarZone</h1>
+<h2 id="m28">testcases.TC011_MyCarZone:beforeMethod</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>chrome</td>
+<td>MyCarZone</td>
+<td>MyCarZone - Smoke Test</td>
+<td>Smoke Testing</td>
+<td>HAEA-KIA</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>null</p>
+java.util.regex.Pattern$GroupHead.match(Unknown Source)
+<br/>at java.util.regex.Pattern$Branch.match(Unknown Source)
+<br/>at java.util.regex.Pattern$Branch.match(Unknown Source)
+<br/>at java.util.regex.Pattern$Branch.match(Unknown Source)
+<br/>at java.util.regex.Pattern$BranchConn.match(Unknown Source)
+<br/>at java.util.regex.Pattern$GroupTail.match(Unknown Source)
+<br/>at java.util.regex.Pattern$Curly.match0(Unknown Source)
+<br/>at java.util.regex.Pattern$Curly.match(Unknown Source)
+<br/>at java.util.regex.Pattern$GroupHead.match(Unknown Source)
+<br/>at java.util.regex.Pattern$Branch.match(Unknown Source)
+<br/>at java.util.regex.Pattern$Branch.match(Unknown Source)
+<br/>at java.util.regex.Pattern$BmpCharProperty.match(Unknown Source)
+<br/>at java.util.regex.Pattern$Start.match(Unknown Source)
+<br/>at java.util.regex.Matcher.search(Unknown Source)
+<br/>at java.util.regex.Matcher.find(Unknown Source)
+<br/>at java.util.Formatter.parse(Unknown Source)
+<br/>at java.util.Formatter.format(Unknown Source)
+<br/>at java.util.Formatter.format(Unknown Source)
+<br/>at java.lang.String.format(Unknown Source)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:328)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:785)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>at utils.Reporter.reportStep(Reporter.java:23)
+<br/>at utils.Reporter.reportStep(Reporter.java:46)
+<br/>at wrappers.GenericWrappers.takeSnap(GenericWrappers.java:787)
+<br/>924 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">testcases.TC011_MyCarZone:afterTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">testcases.TC011_MyCarZone:afterMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">testcases.TC011_MyCarZone:geoFenceAlert</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+<td>Curfew Alert</td>
+<td></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">testcases.TC011_MyCarZone:geoFenceAlert</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>sson@mailinator.com</td>
+<td>Password1</td>
+<td>My TELLURIDE</td>
+<td>Geo Fence Alert</td>
+<td>Fountain Valley, California</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

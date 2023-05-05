@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+ 
+  
+  <parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+	
+  <test  name="VehicleStatus"  preserve-order="true">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC006"></parameter>
+	 <parameter name="testCaseName" value="VehicleStatus"></parameter>
+	 <parameter name="testDescription" value="VehicleStatus - Smoke Test"></parameter>
+    <classes>
+      <class name="VehicleStatusVerifyTheVehicleName"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
