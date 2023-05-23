@@ -1,6 +1,5 @@
 package testcases;
 
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import pages.P2_Login;
