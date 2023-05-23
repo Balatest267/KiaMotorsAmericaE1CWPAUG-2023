@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+	
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+	
+<test  name="Create Account"  preserve-order="true">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC001"></parameter>
+	 <parameter name="testCaseName" value="Create Account"></parameter>
+	 <parameter name="testDescription" value="Create Account - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC001_CreateAccount">
+		  <methods> 
+			  <include name="verifyCreateAccount"></include>
+			  <include name="clickTermsOfServiceLink"></include>
+			  <include name="clickPrivacyPolicyLink"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+
+<test  name="Login"  preserve-order="true">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC002"></parameter>
+	 <parameter name="testCaseName" value="Login"></parameter>
+	 <parameter name="testDescription" value="Login - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC002_Login">
+		  <methods> 
+		      <include name="verifySignInIsDisplayed"></include>
+			  <include name="verifyLoginIn"></include>
+			  <include name="verifyForgotPassword"></include>
+			  <include name="verifyRememberMecheckbox"></include>  
+			  <include name="verifyLogout"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>  
+
+
+
+<test  name="My Vehicles" preserve-order="true">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC004"></parameter>
+	 <parameter name="testCaseName" value="My Vehicles"></parameter>
+	 <parameter name="testDescription" value="My Vehicles - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC004_MyVehicles">
+		  <methods> 
+			  <include name="myVehiclesPickTheVehicle"></include>
+			  <include name="myVehiclesClickAddvehicle"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+ <test  name="Dashboard"  preserve-order="true">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC005"></parameter>
+	 <parameter name="testCaseName" value="Dashboard"></parameter>
+	 <parameter name="testDescription" value="Dashboard - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC005_Dashboard">
+		  <methods>  
+			   <include name="DashboardClickDoorUnLock"></include>
+			  <include name="DashboardClickDoorLock"></include>
+			  <include name="clickRemoteStartStop"></include>
+			  <include name="Dashboard_ClickMasterRefresh"></include>
+			  <include name="DashboardLastRefreshExist"></include> 
+			  <include name="DashboardClickRemoteClimateStartWithToggles"></include> 
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+  
+  
+  <test  name="VehicleStatus" preserve-order="true">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC006"></parameter>
+	 <parameter name="testCaseName" value="VehicleStatus"></parameter>
+	 <parameter name="testDescription" value="My Vehicles - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC006_VehicleStatus">
+		  <methods> 
+			  <include name="VehicleStatusVerifyTheVehicleName"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+  
+  <test  name="RemoteSection" preserve-order="true">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC007"></parameter>
+	 <parameter name="testCaseName" value="RemoteSection"></parameter>
+	 <parameter name="testDescription" value="RemoteSection - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC007_RemoteSection">
+		  <methods>  
+			  <include name="RemoteSectionDoorUnlockRS"></include>
+			  <include name="RemoteSectionDoorLock"></include>
+			  <include name="RemoteSectionClimateStart"></include> 
+			  <include name="RemoteSectionClimateStop"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+   
+ <test  name="Schedules" preserve-order="true">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC008"></parameter>
+	 <parameter name="testCaseName" value="Schedules"></parameter>
+	 <parameter name="testDescription" value="Schedules - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC008_Schedules">
+		  <methods>  
+			 <include name="createNewSchedule"></include>  
+			  <include name="updateExistingSchedule"></include>
+			  <include name="enableParentToggle"></include>
+			  <include name="scheduleIsDisplayedRemoteSection"></include>
+			   <include name="deleteSchedule"></include> 
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+	
+	 <test  name="Locations" preserve-order="true">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC009"></parameter>
+	 <parameter name="testCaseName" value="Locations"></parameter>
+	 <parameter name="testDescription" value="Locations - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC009_Locations">
+		  <methods>  
+			  <include name="LocationsVehicleCurrentLocation"></include>
+			  <include name="LocationsSavePOI"></include>
+			  <include name="LocationsDeletePOI"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+  
+  <test  name="MyCarZone" preserve-order="true">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC011"></parameter>
+	 <parameter name="testCaseName" value="MyCarZone"></parameter>
+	 <parameter name="testDescription" value="MyCarZone - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC011_MyCarZone">
+		  <methods>  
+			  <include name="geoFenceAlert"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+</suite> 

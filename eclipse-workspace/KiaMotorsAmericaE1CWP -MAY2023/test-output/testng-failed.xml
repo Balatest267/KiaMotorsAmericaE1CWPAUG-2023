@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="testcases.TC001_CreateAccount">
+        <methods>
+          <include name="verifyCreateAccount"/>
+          <include name="clickTermsOfServiceLink"/>
+          <include name="beforeTest"/>
+          <include name="clickPrivacyPolicyLink"/>
+        </methods>
+      </class> <!-- testcases.TC001_CreateAccount -->
+      <class name="testcases.TC009_Locations">
+        <methods>
+          <include name="LocationsDeletePOI"/>
+          <include name="LocationsAddTags"/>
+          <include name="LocationsSavePOI"/>
+          <include name="LocationsSavePOISendToVehiclenDelete"/>
+          <include name="LocationsVehicleCurrentLocation"/>
+          <include name="LocationsSearchIsPresent"/>
+        </methods>
+      </class> <!-- testcases.TC009_Locations -->
+      <class name="testcases.TC006_VehicleStatus">
+        <methods>
+          <include name="VehicleStatusVerifyTheVehicleName"/>
+        </methods>
+      </class> <!-- testcases.TC006_VehicleStatus -->
+      <class name="testcases.TC005_Dashboard">
+        <methods>
+          <include name="DashboardLastRefreshExist"/>
+          <include name="DashboardClickDoorUnLock"/>
+          <include name="DashboardClickRemoteClimateStartWithToggles"/>
+          <include name="DashboardClickDoorLock"/>
+          <include name="DashboardClickMasterRefresh"/>
+          <include name="DashboardClickRemoteClimateStart"/>
+        </methods>
+      </class> <!-- testcases.TC005_Dashboard -->
+      <class name="testcases.TC008_Schedules">
+        <methods>
+          <include name="updateExistingSchedule"/>
+          <include name="enableParentToggle"/>
+          <include name="createNewSchedule"/>
+          <include name="deleteSchedule"/>
+          <include name="scheduleIsDisplayedRemoteSection"/>
+        </methods>
+      </class> <!-- testcases.TC008_Schedules -->
+      <class name="testcases.TC002_Login">
+        <methods>
+          <include name="verifyLoginIn"/>
+          <include name="verifyForgotPassword"/>
+          <include name="verifySignInIsDisplayed"/>
+          <include name="verifyRememberMecheckbox"/>
+          <include name="Login_5440916"/>
+          <include name="verifyLogout"/>
+        </methods>
+      </class> <!-- testcases.TC002_Login -->
+      <class name="testcases.TC007_RemoteSection">
+        <methods>
+          <include name="RemoteSectionDoorUnlockRS"/>
+          <include name="RemoteSectionClimateStart"/>
+          <include name="RemoteSectionDoorLock"/>
+          <include name="RemoteSectionClimateStop"/>
+        </methods>
+      </class> <!-- testcases.TC007_RemoteSection -->
+      <class name="testcases.TC003_ForgotPassword">
+        <methods>
+          <include name="forgotPassword"/>
+        </methods>
+      </class> <!-- testcases.TC003_ForgotPassword -->
+      <class name="testcases.TC004_MyVehicles">
+        <methods>
+          <include name="myVehiclesPickTheVehicle"/>
+          <include name="myVehiclesClickAddvehicle"/>
+        </methods>
+      </class> <!-- testcases.TC004_MyVehicles -->
+      <class name="testcases.TC011_MyCarZone">
+        <methods>
+          <include name="geoFenceAlert"/>
+          <include name="curfewAlert"/>
+        </methods>
+      </class> <!-- testcases.TC011_MyCarZone -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

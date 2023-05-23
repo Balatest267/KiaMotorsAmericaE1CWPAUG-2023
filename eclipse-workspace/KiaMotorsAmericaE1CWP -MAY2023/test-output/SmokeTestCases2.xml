@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+	
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+	
+	
+	<test  name="Create Account">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC001"></parameter>
+	 <parameter name="testCaseName" value="Create Account"></parameter>
+	 <parameter name="testDescription" value="Create Account - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC001_CreateAccount">
+		  <methods> 
+			  <include name="CA_5440906"></include>
+			  <include name="CA_5440910"></include>
+			  <include name="CA_5440912"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+
+<test  name="Login">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC001"></parameter>
+	 <parameter name="testCaseName" value="Login"></parameter>
+	 <parameter name="testDescription" value="Login - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC002_Login">
+		  <methods> 
+			  <include name="Login_5440907"></include>
+			  <include name="Login_5440908"></include>
+			  <include name="Login_5440913"></include>
+			  <include name="Login_5440914"></include>
+			  <include name="Login_5440916"></include>
+			  <include name="Login_Logout"></include>
+			  <include name="ForgotPassword_5440917"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+
+<test  name="My Vehicles">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC001"></parameter>
+	 <parameter name="testCaseName" value="My Vehicles"></parameter>
+	 <parameter name="testDescription" value="My Vehicles - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC004_MyVehicles">
+		  <methods> 
+			  <include name="MyVehicles_initial"></include>
+			  <include name="MyVehicles_5441109"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+ <test  name="Dashboard">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC001"></parameter>
+	 <parameter name="testCaseName" value="Dashboard"></parameter>
+	 <parameter name="testDescription" value="Dashboard - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC005_Dashboard">
+		  <methods>  
+			  <include name="Dashboard_5440934"></include>
+			  <include name="Dashboard_5440933"></include>
+			  <include name="Dashboard_5441047"></include> 
+			  <include name="dashboard_5754553"></include>
+			  <include name="dashboard_5754554"></include>
+			  <include name="Dashboard_ClickMasterRefresh"></include>
+			  <include name="Dashboard_5754484"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+  
+  <test  name="VehicleStatus">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC001"></parameter>
+	 <parameter name="testCaseName" value="VehicleStatus"></parameter>
+	 <parameter name="testDescription" value="My Vehicles - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC006_VehicleStatus">
+		  <methods> 
+			  <include name="VehicleStatus_5754546"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+  
+  <test  name="RemoteSection">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC001"></parameter>
+	 <parameter name="testCaseName" value="RemoteSection"></parameter>
+	 <parameter name="testDescription" value="RemoteSection - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC007_RemoteSection">
+		  <methods>  
+			  <include name="RemoteSection_5754485"></include>
+			  <include name="RemoteSectionDoorLock"></include>
+			  <include name="RemoteSectionClimateStart"></include> 
+			  <include name="RemoteSectionClimateStop"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+   
+  <test  name="Schedules">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC001"></parameter>
+	 <parameter name="testCaseName" value="Schedules"></parameter>
+	 <parameter name="testDescription" value="Schedules - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC008_Schedules">
+		  <methods>  
+			  <include name=" RemoteSection_5754485"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+  
+    <test  name="Locations">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC001"></parameter>
+	 <parameter name="testCaseName" value="Locations"></parameter>
+	 <parameter name="testDescription" value="Locations - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC009_Locations">
+		  <methods>  
+			  <include name="LocationsVehicleCurrentLocation"></include>
+			  <include name="LocationsSavePOI"></include>
+			  <include name="LocationsDeletePOI"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+  
+  <test  name="MyCarZone">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC001"></parameter>
+	 <parameter name="testCaseName" value="MyCarZone"></parameter>
+	 <parameter name="testDescription" value="MyCarZone - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC011_MyCarZone">
+		  <methods>  
+			  <include name="geoFenceAlert"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>
+  
+</suite> 
