@@ -2,17 +2,17 @@
 <testng-results total="36" passed="0" failed="30" skipped="6">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-23T10:19:39Z" name="Default suite" finished-at="2023-05-23T10:19:39Z" duration-ms="570">
+  <suite started-at="2023-06-02T08:02:21Z" name="Default suite" finished-at="2023-06-02T08:02:22Z" duration-ms="481">
     <groups>
       <group name="smoke">
-        <method signature="TC001_CreateAccount.clickPrivacyPolicyLink()[pri:0, instance:testcases.TC001_CreateAccount@2631f68c]" name="clickPrivacyPolicyLink" class="testcases.TC001_CreateAccount"/>
-        <method signature="TC001_CreateAccount.clickTermsOfServiceLink()[pri:0, instance:testcases.TC001_CreateAccount@2631f68c]" name="clickTermsOfServiceLink" class="testcases.TC001_CreateAccount"/>
-        <method signature="TC001_CreateAccount.verifyCreateAccount()[pri:0, instance:testcases.TC001_CreateAccount@2631f68c]" name="verifyCreateAccount" class="testcases.TC001_CreateAccount"/>
+        <method signature="TC001_CreateAccount.clickPrivacyPolicyLink()[pri:0, instance:testcases.TC001_CreateAccount@6ed3f258]" name="clickPrivacyPolicyLink" class="testcases.TC001_CreateAccount"/>
+        <method signature="TC001_CreateAccount.clickTermsOfServiceLink()[pri:0, instance:testcases.TC001_CreateAccount@6ed3f258]" name="clickTermsOfServiceLink" class="testcases.TC001_CreateAccount"/>
+        <method signature="TC001_CreateAccount.verifyCreateAccount()[pri:0, instance:testcases.TC001_CreateAccount@6ed3f258]" name="verifyCreateAccount" class="testcases.TC001_CreateAccount"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-05-23T10:19:39Z" name="Default test" finished-at="2023-05-23T10:19:39Z" duration-ms="570">
+    <test started-at="2023-06-02T08:02:21Z" name="Default test" finished-at="2023-06-02T08:02:22Z" duration-ms="481">
       <class name="testcases.TC006_VehicleStatus">
-        <test-method signature="VehicleStatusVerifyTheVehicleName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC006_VehicleStatus@6e4566f1]" started-at="2023-05-23T15:49:39Z" name="VehicleStatusVerifyTheVehicleName" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="VehicleStatusVerifyTheVehicleName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC006_VehicleStatus@4b6e2263]" started-at="2023-06-02T13:32:22Z" name="VehicleStatusVerifyTheVehicleName" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -48,19 +48,19 @@
         </test-method> <!-- VehicleStatusVerifyTheVehicleName -->
       </class> <!-- testcases.TC006_VehicleStatus -->
       <class name="testcases.TC002_Login">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@4b6e2263]" started-at="2023-05-23T15:49:39Z" name="beforeMethod" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@344f4dea]" started-at="2023-06-02T13:32:22Z" name="beforeMethod" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifySignInIsDisplayed()[pri:0, instance:testcases.TC002_Login@4b6e2263]" started-at="2023-05-23T15:49:39Z" name="verifySignInIsDisplayed" finished-at="2023-05-23T15:49:39Z" duration-ms="1" status="SKIP">
+        <test-method signature="verifySignInIsDisplayed()[pri:0, instance:testcases.TC002_Login@344f4dea]" started-at="2023-06-02T13:32:22Z" name="verifySignInIsDisplayed" finished-at="2023-06-02T13:32:22Z" duration-ms="3" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignInIsDisplayed -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC002_Login@4b6e2263]" started-at="2023-05-23T15:49:39Z" name="afterMethod" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC002_Login@344f4dea]" started-at="2023-06-02T13:32:22Z" name="afterMethod" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="verifyLoginIn(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@4b6e2263]" started-at="2023-05-23T15:49:39Z" name="verifyLoginIn" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="verifyLoginIn(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@344f4dea]" started-at="2023-06-02T13:32:22Z" name="verifyLoginIn" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -94,19 +94,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginIn -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@4b6e2263]" started-at="2023-05-23T15:49:39Z" name="beforeMethod" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@344f4dea]" started-at="2023-06-02T13:32:22Z" name="beforeMethod" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyForgotPassword()[pri:0, instance:testcases.TC002_Login@4b6e2263]" started-at="2023-05-23T15:49:39Z" name="verifyForgotPassword" finished-at="2023-05-23T15:49:39Z" duration-ms="1" status="SKIP">
+        <test-method signature="verifyForgotPassword()[pri:0, instance:testcases.TC002_Login@344f4dea]" started-at="2023-06-02T13:32:22Z" name="verifyForgotPassword" finished-at="2023-06-02T13:32:22Z" duration-ms="1" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForgotPassword -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC002_Login@4b6e2263]" started-at="2023-05-23T15:49:39Z" name="afterMethod" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC002_Login@344f4dea]" started-at="2023-06-02T13:32:22Z" name="afterMethod" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="verifyRememberMecheckbox(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@4b6e2263]" started-at="2023-05-23T15:49:39Z" name="verifyRememberMecheckbox" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="verifyRememberMecheckbox(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@344f4dea]" started-at="2023-06-02T13:32:22Z" name="verifyRememberMecheckbox" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -140,7 +140,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRememberMecheckbox -->
-        <test-method signature="Login_5440916(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@4b6e2263]" started-at="2023-05-23T15:49:39Z" name="Login_5440916" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="Login_5440916(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@344f4dea]" started-at="2023-06-02T13:32:22Z" name="Login_5440916" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -174,7 +174,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_5440916 -->
-        <test-method signature="verifyLogout(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@4b6e2263]" started-at="2023-05-23T15:49:39Z" name="verifyLogout" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="verifyLogout(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_Login@344f4dea]" started-at="2023-06-02T13:32:22Z" name="verifyLogout" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -210,21 +210,21 @@
         </test-method> <!-- verifyLogout -->
       </class> <!-- testcases.TC002_Login -->
       <class name="testcases.TC003_ForgotPassword">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC003_ForgotPassword@535779e4]" started-at="2023-05-23T15:49:39Z" name="beforeMethod" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC003_ForgotPassword@53fd0d10]" started-at="2023-06-02T13:32:22Z" name="beforeMethod" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="forgotPassword()[pri:0, instance:testcases.TC003_ForgotPassword@535779e4]" started-at="2023-05-23T15:49:39Z" name="forgotPassword" finished-at="2023-05-23T15:49:39Z" duration-ms="1" status="SKIP">
+        <test-method signature="forgotPassword()[pri:0, instance:testcases.TC003_ForgotPassword@53fd0d10]" started-at="2023-06-02T13:32:22Z" name="forgotPassword" finished-at="2023-06-02T13:32:22Z" duration-ms="4" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPassword -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC003_ForgotPassword@535779e4]" started-at="2023-05-23T15:49:39Z" name="afterMethod" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC003_ForgotPassword@53fd0d10]" started-at="2023-06-02T13:32:22Z" name="afterMethod" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testcases.TC003_ForgotPassword -->
       <class name="testcases.TC005_Dashboard">
-        <test-method signature="DashboardClickDoorUnLock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@2a62b5bc]" started-at="2023-05-23T15:49:39Z" name="DashboardClickDoorUnLock" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="DashboardClickDoorUnLock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@53de625d]" started-at="2023-06-02T13:32:22Z" name="DashboardClickDoorUnLock" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -258,7 +258,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DashboardClickDoorUnLock -->
-        <test-method signature="DashboardClickDoorLock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@2a62b5bc]" started-at="2023-05-23T15:49:39Z" name="DashboardClickDoorLock" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="DashboardClickDoorLock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@53de625d]" started-at="2023-06-02T13:32:22Z" name="DashboardClickDoorLock" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -292,7 +292,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DashboardClickDoorLock -->
-        <test-method signature="DashboardClickRemoteClimateStart(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@2a62b5bc]" started-at="2023-05-23T15:49:39Z" name="DashboardClickRemoteClimateStart" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="DashboardClickRemoteClimateStart(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@53de625d]" started-at="2023-06-02T13:32:22Z" name="DashboardClickRemoteClimateStart" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -326,7 +326,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DashboardClickRemoteClimateStart -->
-        <test-method signature="DashboardClickMasterRefresh(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@2a62b5bc]" started-at="2023-05-23T15:49:39Z" name="DashboardClickMasterRefresh" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="DashboardClickMasterRefresh(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@53de625d]" started-at="2023-06-02T13:32:22Z" name="DashboardClickMasterRefresh" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -360,7 +360,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DashboardClickMasterRefresh -->
-        <test-method signature="DashboardLastRefreshExist(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@2a62b5bc]" started-at="2023-05-23T15:49:39Z" name="DashboardLastRefreshExist" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="DashboardLastRefreshExist(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@53de625d]" started-at="2023-06-02T13:32:22Z" name="DashboardLastRefreshExist" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -394,7 +394,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DashboardLastRefreshExist -->
-        <test-method signature="DashboardClickRemoteClimateStartWithToggles(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@2a62b5bc]" started-at="2023-05-23T15:49:39Z" name="DashboardClickRemoteClimateStartWithToggles" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="DashboardClickRemoteClimateStartWithToggles(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_Dashboard@53de625d]" started-at="2023-06-02T13:32:22Z" name="DashboardClickRemoteClimateStartWithToggles" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -430,7 +430,7 @@
         </test-method> <!-- DashboardClickRemoteClimateStartWithToggles -->
       </class> <!-- testcases.TC005_Dashboard -->
       <class name="testcases.TC007_RemoteSection">
-        <test-method signature="RemoteSectionDoorUnlockRS(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@1b7c473a]" started-at="2023-05-23T15:49:39Z" name="RemoteSectionDoorUnlockRS" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="RemoteSectionDoorUnlockRS(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@5e4bd84a]" started-at="2023-06-02T13:32:22Z" name="RemoteSectionDoorUnlockRS" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -464,7 +464,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoteSectionDoorUnlockRS -->
-        <test-method signature="RemoteSectionDoorLock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@1b7c473a]" started-at="2023-05-23T15:49:39Z" name="RemoteSectionDoorLock" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="RemoteSectionDoorLock(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@5e4bd84a]" started-at="2023-06-02T13:32:22Z" name="RemoteSectionDoorLock" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -498,7 +498,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoteSectionDoorLock -->
-        <test-method signature="RemoteSectionClimateStart(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@1b7c473a]" started-at="2023-05-23T15:49:39Z" name="RemoteSectionClimateStart" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="RemoteSectionClimateStart(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@5e4bd84a]" started-at="2023-06-02T13:32:22Z" name="RemoteSectionClimateStart" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -532,7 +532,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoteSectionClimateStart -->
-        <test-method signature="RemoteSectionClimateStop(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@1b7c473a]" started-at="2023-05-23T15:49:39Z" name="RemoteSectionClimateStop" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="RemoteSectionClimateStop(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_RemoteSection@5e4bd84a]" started-at="2023-06-02T13:32:22Z" name="RemoteSectionClimateStop" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -568,7 +568,7 @@
         </test-method> <!-- RemoteSectionClimateStop -->
       </class> <!-- testcases.TC007_RemoteSection -->
       <class name="testcases.TC009_Locations">
-        <test-method signature="LocationsSearchIsPresent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@648c94da]" started-at="2023-05-23T15:49:39Z" name="LocationsSearchIsPresent" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="LocationsSearchIsPresent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@2a62b5bc]" started-at="2023-06-02T13:32:21Z" name="LocationsSearchIsPresent" data-provider="fetchData" finished-at="2023-06-02T13:32:21Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -602,7 +602,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LocationsSearchIsPresent -->
-        <test-method signature="LocationsVehicleCurrentLocation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@648c94da]" started-at="2023-05-23T15:49:39Z" name="LocationsVehicleCurrentLocation" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="LocationsVehicleCurrentLocation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@2a62b5bc]" started-at="2023-06-02T13:32:22Z" name="LocationsVehicleCurrentLocation" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -636,7 +636,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LocationsVehicleCurrentLocation -->
-        <test-method signature="LocationsSavePOI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@648c94da]" started-at="2023-05-23T15:49:39Z" name="LocationsSavePOI" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="LocationsSavePOI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@2a62b5bc]" started-at="2023-06-02T13:32:22Z" name="LocationsSavePOI" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -670,7 +670,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LocationsSavePOI -->
-        <test-method signature="LocationsDeletePOI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@648c94da]" started-at="2023-05-23T15:49:39Z" name="LocationsDeletePOI" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="LocationsDeletePOI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@2a62b5bc]" started-at="2023-06-02T13:32:22Z" name="LocationsDeletePOI" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -704,7 +704,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LocationsDeletePOI -->
-        <test-method signature="LocationsSavePOISendToVehiclenDelete(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@648c94da]" started-at="2023-05-23T15:49:39Z" name="LocationsSavePOISendToVehiclenDelete" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="LocationsSavePOISendToVehiclenDelete(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@2a62b5bc]" started-at="2023-06-02T13:32:22Z" name="LocationsSavePOISendToVehiclenDelete" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -738,7 +738,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LocationsSavePOISendToVehiclenDelete -->
-        <test-method signature="LocationsAddTags(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@648c94da]" started-at="2023-05-23T15:49:39Z" name="LocationsAddTags" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="LocationsAddTags(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC009_Locations@2a62b5bc]" started-at="2023-06-02T13:32:22Z" name="LocationsAddTags" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -774,21 +774,21 @@
         </test-method> <!-- LocationsAddTags -->
       </class> <!-- testcases.TC009_Locations -->
       <class name="testcases.TC001_CreateAccount">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testcases.TC001_CreateAccount@2631f68c]" started-at="2023-05-23T15:49:39Z" name="beforeTest" finished-at="2023-05-23T15:49:39Z" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testcases.TC001_CreateAccount@6ed3f258]" started-at="2023-06-02T13:32:21Z" name="beforeTest" finished-at="2023-06-02T13:32:21Z" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_CreateAccount@2631f68c]" started-at="2023-05-23T15:49:39Z" name="beforeMethod" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_CreateAccount@6ed3f258]" started-at="2023-06-02T13:32:21Z" name="beforeMethod" finished-at="2023-06-02T13:32:21Z" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by @Configuration on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\2004469\AppData\Local\Temp\testng-eclipse-1572149520\testng-customsuite.xml]]>
+in C:\Users\2004469\AppData\Local\Temp\testng-eclipse-1539990022\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by @Configuration on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\2004469\AppData\Local\Temp\testng-eclipse-1572149520\testng-customsuite.xml
+in C:\Users\2004469\AppData\Local\Temp\testng-eclipse-1539990022\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:355)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
@@ -818,45 +818,45 @@ in C:\Users\2004469\AppData\Local\Temp\testng-eclipse-1572149520\testng-customsu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyCreateAccount()[pri:0, instance:testcases.TC001_CreateAccount@2631f68c]" started-at="2023-05-23T15:49:39Z" name="verifyCreateAccount" finished-at="2023-05-23T15:49:39Z" duration-ms="3" status="SKIP">
+        <test-method signature="verifyCreateAccount()[pri:0, instance:testcases.TC001_CreateAccount@6ed3f258]" started-at="2023-06-02T13:32:21Z" name="verifyCreateAccount" finished-at="2023-06-02T13:32:21Z" duration-ms="5" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreateAccount -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC001_CreateAccount@2631f68c]" started-at="2023-05-23T15:49:39Z" name="afterMethod" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC001_CreateAccount@6ed3f258]" started-at="2023-06-02T13:32:21Z" name="afterMethod" finished-at="2023-06-02T13:32:21Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_CreateAccount@2631f68c]" started-at="2023-05-23T15:49:39Z" name="beforeMethod" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_CreateAccount@6ed3f258]" started-at="2023-06-02T13:32:22Z" name="beforeMethod" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="clickTermsOfServiceLink()[pri:0, instance:testcases.TC001_CreateAccount@2631f68c]" started-at="2023-05-23T15:49:39Z" name="clickTermsOfServiceLink" finished-at="2023-05-23T15:49:39Z" duration-ms="4" status="SKIP">
+        <test-method signature="clickTermsOfServiceLink()[pri:0, instance:testcases.TC001_CreateAccount@6ed3f258]" started-at="2023-06-02T13:32:22Z" name="clickTermsOfServiceLink" finished-at="2023-06-02T13:32:22Z" duration-ms="2" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickTermsOfServiceLink -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC001_CreateAccount@2631f68c]" started-at="2023-05-23T15:49:39Z" name="afterMethod" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC001_CreateAccount@6ed3f258]" started-at="2023-06-02T13:32:22Z" name="afterMethod" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_CreateAccount@2631f68c]" started-at="2023-05-23T15:49:39Z" name="beforeMethod" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_CreateAccount@6ed3f258]" started-at="2023-06-02T13:32:22Z" name="beforeMethod" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="clickPrivacyPolicyLink()[pri:0, instance:testcases.TC001_CreateAccount@2631f68c]" started-at="2023-05-23T15:49:39Z" name="clickPrivacyPolicyLink" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="SKIP">
+        <test-method signature="clickPrivacyPolicyLink()[pri:0, instance:testcases.TC001_CreateAccount@6ed3f258]" started-at="2023-06-02T13:32:22Z" name="clickPrivacyPolicyLink" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickPrivacyPolicyLink -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC001_CreateAccount@2631f68c]" started-at="2023-05-23T15:49:39Z" name="afterMethod" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC001_CreateAccount@6ed3f258]" started-at="2023-06-02T13:32:22Z" name="afterMethod" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.TC001_CreateAccount@2631f68c]" started-at="2023-05-23T15:49:39Z" name="afterTest" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.TC001_CreateAccount@6ed3f258]" started-at="2023-06-02T13:32:22Z" name="afterTest" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- testcases.TC001_CreateAccount -->
       <class name="testcases.TC004_MyVehicles">
-        <test-method signature="myVehiclesPickTheVehicle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@5e4bd84a]" started-at="2023-05-23T15:49:39Z" name="myVehiclesPickTheVehicle" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="myVehiclesPickTheVehicle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@648c94da]" started-at="2023-06-02T13:32:22Z" name="myVehiclesPickTheVehicle" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -890,7 +890,7 @@ in C:\Users\2004469\AppData\Local\Temp\testng-eclipse-1572149520\testng-customsu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myVehiclesPickTheVehicle -->
-        <test-method signature="myVehiclesClickAddvehicle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@5e4bd84a]" started-at="2023-05-23T15:49:39Z" name="myVehiclesClickAddvehicle" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="myVehiclesClickAddvehicle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@648c94da]" started-at="2023-06-02T13:32:22Z" name="myVehiclesClickAddvehicle" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -926,7 +926,7 @@ in C:\Users\2004469\AppData\Local\Temp\testng-eclipse-1572149520\testng-customsu
         </test-method> <!-- myVehiclesClickAddvehicle -->
       </class> <!-- testcases.TC004_MyVehicles -->
       <class name="testcases.TC008_Schedules">
-        <test-method signature="createNewSchedule(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@53de625d]" started-at="2023-05-23T15:49:39Z" name="createNewSchedule" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="createNewSchedule(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@535779e4]" started-at="2023-06-02T13:32:22Z" name="createNewSchedule" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -960,7 +960,7 @@ in C:\Users\2004469\AppData\Local\Temp\testng-eclipse-1572149520\testng-customsu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewSchedule -->
-        <test-method signature="updateExistingSchedule(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@53de625d]" started-at="2023-05-23T15:49:39Z" name="updateExistingSchedule" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="updateExistingSchedule(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@535779e4]" started-at="2023-06-02T13:32:22Z" name="updateExistingSchedule" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -994,7 +994,7 @@ in C:\Users\2004469\AppData\Local\Temp\testng-eclipse-1572149520\testng-customsu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateExistingSchedule -->
-        <test-method signature="enableParentToggle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@53de625d]" started-at="2023-05-23T15:49:39Z" name="enableParentToggle" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="enableParentToggle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@535779e4]" started-at="2023-06-02T13:32:22Z" name="enableParentToggle" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -1028,7 +1028,7 @@ in C:\Users\2004469\AppData\Local\Temp\testng-eclipse-1572149520\testng-customsu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enableParentToggle -->
-        <test-method signature="scheduleIsDisplayedRemoteSection(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@53de625d]" started-at="2023-05-23T15:49:39Z" name="scheduleIsDisplayedRemoteSection" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="scheduleIsDisplayedRemoteSection(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@535779e4]" started-at="2023-06-02T13:32:22Z" name="scheduleIsDisplayedRemoteSection" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -1062,7 +1062,7 @@ in C:\Users\2004469\AppData\Local\Temp\testng-eclipse-1572149520\testng-customsu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scheduleIsDisplayedRemoteSection -->
-        <test-method signature="deleteSchedule(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@53de625d]" started-at="2023-05-23T15:49:39Z" name="deleteSchedule" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="deleteSchedule(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC008_Schedules@535779e4]" started-at="2023-06-02T13:32:22Z" name="deleteSchedule" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -1098,7 +1098,7 @@ in C:\Users\2004469\AppData\Local\Temp\testng-eclipse-1572149520\testng-customsu
         </test-method> <!-- deleteSchedule -->
       </class> <!-- testcases.TC008_Schedules -->
       <class name="testcases.TC011_MyCarZone">
-        <test-method signature="geoFenceAlert(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC011_MyCarZone@53fd0d10]" started-at="2023-05-23T15:49:39Z" name="geoFenceAlert" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="geoFenceAlert(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC011_MyCarZone@6c0d9d86]" started-at="2023-06-02T13:32:22Z" name="geoFenceAlert" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>
@@ -1132,7 +1132,7 @@ in C:\Users\2004469\AppData\Local\Temp\testng-eclipse-1572149520\testng-customsu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- geoFenceAlert -->
-        <test-method signature="curfewAlert(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC011_MyCarZone@53fd0d10]" started-at="2023-05-23T15:49:39Z" name="curfewAlert" data-provider="fetchData" finished-at="2023-05-23T15:49:39Z" duration-ms="0" status="FAIL">
+        <test-method signature="curfewAlert(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC011_MyCarZone@6c0d9d86]" started-at="2023-06-02T13:32:22Z" name="curfewAlert" data-provider="fetchData" finished-at="2023-06-02T13:32:22Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot read the array length because "oResult" is null]]>

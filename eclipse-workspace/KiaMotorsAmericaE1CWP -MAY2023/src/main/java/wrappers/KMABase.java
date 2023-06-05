@@ -68,11 +68,4 @@ public class KMABase extends GenericWrappers {
 		String dataSheetName = context.getCurrentXmlTest().getParameter("dataSheetName");
 		return DataInputProvider.getAllSheetData("./data/"+dataSheetName+".xlsx");		
 	}	
-	
 }
-
-
-
-
-
-

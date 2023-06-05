@@ -70,7 +70,6 @@ public class GenericWrappers extends Reporter implements Wrappers {
 		this.test=test;
 	}
 
-	
 
 //----------------------------------------------------Load Objects---------------------------------------------------------------	
 
@@ -103,7 +102,7 @@ public class GenericWrappers extends Reporter implements Wrappers {
 	}
 	
 	
-	  // This method will launch the browser in grid node (if remote) and maximise the browser and set the
+	  // This method will launch the browser in grid node (if remote) and maximize the browser and set the
 	
 	public void invokeApp(String browser, boolean bRemote) {
 		try {
@@ -137,7 +136,6 @@ public class GenericWrappers extends Reporter implements Wrappers {
 
 
 	// This method will wait until element is visible
-	
 	
 	public void waitUntilInvisibilityOfElementLocated(String xpath) {
 		
@@ -303,10 +301,8 @@ public class GenericWrappers extends Reporter implements Wrappers {
 		} catch (Exception e) {
 			reportStep("Unknown exception occured while entering the data into the field :", "FAIL");
 		}
-
 	}
-	
-	
+		
 //--------------------------------------------This method will verify the page title of the browser--------------------------------------------- 
 	
 	public boolean verifyTitle(String title){
@@ -910,6 +906,11 @@ public void HandlingToastMessage(String xpathValue, String xpathClose, String re
 					} catch (Exception e) {
 						reportStep("The element identified by the ID attribute could not be clicked.", "FAIL");
 					}
+				}
+
+				public void quit() {
+					// TODO Auto-generated method stub
+					
 				}
 
 	}
