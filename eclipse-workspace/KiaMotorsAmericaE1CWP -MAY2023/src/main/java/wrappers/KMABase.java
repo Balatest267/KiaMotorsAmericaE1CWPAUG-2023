@@ -9,6 +9,9 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
+
+import java.io.IOException;
+
 import org.mozilla.javascript.Context;
 import org.testng.ITestContext;
 
@@ -59,7 +62,13 @@ public class KMABase extends GenericWrappers {
 	@AfterMethod
 	public void afterMethod() throws InterruptedException{
 		endTestcase();     
-		closeAllBrowsers();		
+		closeAllBrowsers();	
+		try {
+			Runtime.getRuntime().exec("taskkill /F /IM ChromeDriver.exe") ;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		Thread.sleep(5000);
 		}
 	
