@@ -16,7 +16,7 @@ public class TC001_CreateAccount extends KMABase {
 	}
 
 	
-	@Test(groups= {"smoke"}, priority=2)
+	@Test(priority=2,groups= {"smoke"})
 	public void clickTermsOfServiceLink() throws InterruptedException{
 	new P1_CreateAccount(driver, test)	
 	.clickCreateAccountButton()
@@ -28,13 +28,7 @@ public class TC001_CreateAccount extends KMABase {
 	new P1_CreateAccount(driver, test)	
 	.clickCreateAccountButton()
 	.clickPrivacyPolicy();
-	}
-	
-	
-	
-	
-	
-	
+	}	
 }
 
 

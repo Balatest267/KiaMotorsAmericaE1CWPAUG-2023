@@ -41,9 +41,6 @@ import utils.Reporter;
 
 public class GenericWrappers extends Reporter implements Wrappers {
 
-	
-
-
 	public RemoteWebDriver driver;
 	//public WebDriverWait wait;
 	protected static Properties prop;
@@ -69,8 +66,6 @@ public class GenericWrappers extends Reporter implements Wrappers {
 		this.driver = driver;
 		this.test=test;
 	}
-
-	
 
 //----------------------------------------------------Load Objects---------------------------------------------------------------	
 
@@ -103,7 +98,7 @@ public class GenericWrappers extends Reporter implements Wrappers {
 	}
 	
 	
-	  // This method will launch the browser in grid node (if remote) and maximise the browser and set the
+	  // This method will launch the browser in grid node (if remote) and maximize the browser and set the
 	
 	public void invokeApp(String browser, boolean bRemote) {
 		try {
@@ -125,8 +120,8 @@ public class GenericWrappers extends Reporter implements Wrappers {
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.get(sUrl);
-			primaryWindowHandle = driver.getWindowHandle();		
-
+			primaryWindowHandle = driver.getWindowHandle();
+			
 			reportStep("The browser:" + browser + " launched successfully", "PASS");
 
 		} catch (Exception e) {
@@ -137,7 +132,6 @@ public class GenericWrappers extends Reporter implements Wrappers {
 
 
 	// This method will wait until element is visible
-	
 	
 	public void waitUntilInvisibilityOfElementLocated(String xpath) {
 		
@@ -287,7 +281,8 @@ public class GenericWrappers extends Reporter implements Wrappers {
 			reportStep("Unknown exception occured while entering the data into the field :", "FAIL");
 		}
 
-	}
+		
+			}
 
 	
 	 //  This method will enter the value to the text field using name attribute to locate
@@ -303,10 +298,7 @@ public class GenericWrappers extends Reporter implements Wrappers {
 		} catch (Exception e) {
 			reportStep("Unknown exception occured while entering the data into the field :", "FAIL");
 		}
-
 	}
-	
-	
 //--------------------------------------------This method will verify the page title of the browser--------------------------------------------- 
 	
 	public boolean verifyTitle(String title){
@@ -872,9 +864,7 @@ public void HandlingToastMessage(String xpathValue, String xpathClose, String re
 			//-----------------------------------------------
 			
 			//CSS Selector:
-			
-			
-			public void clickByCSSTagClass(String cssTagName) {
+				public void clickByCSSTagClass(String cssTagName) {
 				try{
 					driver.findElement(By.cssSelector(cssTagName)).click();
 					reportStep("The element with the id attribute has been clicked.", "PASS");
@@ -884,9 +874,7 @@ public void HandlingToastMessage(String xpathValue, String xpathClose, String re
 				}
 			}
 			
-			
-			 
-			public void clicknEnterByCSSTagClass(String cssTagName, String tripTags) {
+				public void clickEnterByCSSTagClass(String cssTagName, String tripTags) {
 				try{
 					WebElement enterInput  = driver.findElement(By.cssSelector(cssTagName));
 					enterInput.sendKeys(tripTags);
@@ -897,7 +885,6 @@ public void HandlingToastMessage(String xpathValue, String xpathClose, String re
 					reportStep("The element identified by the ID attribute could not be clicked.", "FAIL");
 				}
 			}
-			
 			
 			 
 				public void enterByCSSselector(String cssTagName, String tripTags) {
@@ -912,6 +899,10 @@ public void HandlingToastMessage(String xpathValue, String xpathClose, String re
 					}
 				}
 
+				public void quit() {
+					// TODO Auto-generated method stub
+					
+				}
 	}
 
 

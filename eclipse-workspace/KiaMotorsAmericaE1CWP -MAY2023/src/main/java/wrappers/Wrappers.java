@@ -2,14 +2,10 @@ package wrappers;
 
 
 public interface Wrappers {
-	
-	
-	
+		
 //-----------------------------------------------------Invoke Method------------------------------------------------------------
 	
 	public void invokeApp(String browser);
-
-	
 	public void invokeApp(String browser, boolean bRemote);
 	
 	
@@ -36,8 +32,6 @@ public interface Wrappers {
 	
 //----------------------------------------------------- Verify Method ------------------------------------------------------------		
 
-	
-	
 	public boolean verifyTitle(String title);
 
 	public void verifyTextById(String id, String text);
@@ -49,23 +43,18 @@ public interface Wrappers {
 	
 //-----------------------------------------------------Click Method------------------------------------------------------------		
 
-	
 	public void clickById(String id);
 
 	public void clickByClassName(String classVal);
 
-	
 	public void clickByName(String name);
-
 
 	public void clickByLink(String name);
 
 	public void clickByLinkNoSnap(String name);
-
 	
 	public void clickByXpath(String xpathVal);
 
-	
 	public void clickByXpathNoSnap(String xpathVal);
 	
 
@@ -73,15 +62,13 @@ public interface Wrappers {
 	
 	public void clickByXpathJavascriptExecutor(String xpathVal);
 	
-	
 //-----------------------------------------------------Get Method------------------------------------------------------------		
 
-	
 	
 	public String getTextById(String idVal);
 
 	public String getTextByXpath(String xpathVal);
-	
+
 	
 //-----------------------------------------------------Select Method------------------------------------------------------------		
 	
@@ -95,40 +82,25 @@ public interface Wrappers {
 
 
 	public void switchToParentWindow();
-
-
 	public void switchToLastWindow();
-	
-	
 	
 //-----------------------------------------------------Alert Method------------------------------------------------------------		
 
 	public void acceptAlert();
-
-
 	public void dismissAlert();
-
-
 	public String getAlertText();
-	
-	
-//-----------------------------------------------------Takesnap Method------------------------------------------------------------		
 
+//-----------------------------------------------------Takesnap Method------------------------------------------------------------		
 
 	public long takeSnap();
 
-
 //-----------------------------------------------------Page refresh------------------------------------------------------------		
 	
-
 	public void pageRefresh();
 	
 //-----------------------------------------------------Close Method------------------------------------------------------------	
 	
-
 	public void closeBrowser();
-
-	
 	public void closeAllBrowsers();
-
+	
 }
